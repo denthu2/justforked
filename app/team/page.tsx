@@ -29,8 +29,8 @@ export default function TeamPage() {
                 A dedicated team of professionals committed to your long-term health and comfort.
               </span>
             </h1>
-            <Button className="bg-primary text-white hover:bg-primary/90">
-              Schedule Your Visit <ArrowRight className="ml-2 h-5 w-5" />
+            <Button className="bg-primary text-white hover:bg-primary/90"><a href="/waitlist">
+              Schedule Your Visit</a> <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function TeamPage() {
                 <h3 className="text-2xl font-bold mb-2">Dr. Thu Trinh, DDS</h3>
                 <p className="text-gray-600 mb-4">Lead Dentist & Wellness Director</p>
                 <p className="text-gray-600 mb-6">
-                  With over 15 years of experience in holistic dentistry, Dr. Trinh combines modern techniques with a whole-body approach to dental wellness. Certified in biomimetic dentistry and a fellow of the International Academy of Biological Dentistry & Medicine.
+                  With over a decade of experience in holistic dentistry, Dr. Trinh combines modern techniques with a whole-body approach to dental wellness. Certified in biomimetic dentistry and a fellow of the International Academy of Biological Dentistry & Medicine.
                 </p>
                 <div className="space-y-2">
                   <div className="flex items-center justify-center text-gray-600">
