@@ -457,8 +457,8 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="pt-4">
-                  <Button className="btn-outline-square">
-                    Join the Rise Wellness Club <ArrowRight className="ml-2 h-5 w-5" />
+                  <Button className="btn-outline-square"><a href="/membership">
+                    Join the Rise Wellness Club</a> <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                 </div>
               </div>
@@ -499,8 +499,8 @@ export default function Home() {
                       </li>
                     </ul>
                   </div>
-                  <Button variant="outline" className="btn-outline-square w-full">
-                    Learn More
+                  <Button variant="outline" className="btn-outline-square w-full"><a href="/membership">
+                    Learn More</a>
                   </Button>
                 </Card>
               </div>
@@ -585,8 +585,8 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <Button variant="outline" className="btn-outline-square">
-              
-              View All Events <ArrowRight className="ml-2 h-5 w-5" />
+            <a href="/events">
+              View All Events</a><ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
         </div>
