@@ -31,7 +31,7 @@ export function Footer() {
                   1651 S. Bell Blvd.<br />
                   Unit #300<br />
                   Cedar Park, TX 78613<br />
-                  Across from Twin Lakes YMCA
+                 
                   
                 </a>
               </div>

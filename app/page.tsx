@@ -50,8 +50,9 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Rise Dental: Where Wellness Meets Practicality</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Rise Dental is redefining wellness through the perfect balance of wellness and practicality. We bridge the gap between traditional dentistry and modern holistic health, transforming complex wellness concepts into clear, actionable steps. 
-              We're not just improving smiles—we're revolutionizing wellness. Together, we're elevating the standard of health for generations to come.
+            At Rise Dental, wellness isn’t an abstract ideal—it’s a practical, intentional approach to lifelong health. We bridge the gap between traditional dentistry and modern care, making it easy to take meaningful steps toward better health.
+
+
             </p>
           </div>
 
@@ -468,11 +469,11 @@ export default function Home() {
                   <div className="flex items-center justify-between mb-6">
                     <div>
                       <Star className="h-8 w-8 text-primary mb-2" />
-                      <h3 className="text-2xl font-bold">Premium Membership</h3>
+                      <h3 className="text-2xl font-bold">Core Wellness Membership</h3>
                     </div>
                     <div className="text-right">
                       <div className="text-sm text-gray-500">Starting at</div>
-                      <div className="text-3xl font-bold text-primary">$99/mo</div>
+                      <div className="text-3xl font-bold text-primary">$49/mo</div>
                     </div>
                   </div>
                   <div className="space-y-4 mb-8">
@@ -584,6 +585,7 @@ export default function Home() {
 
           <div className="text-center mt-12">
             <Button variant="outline" className="btn-outline-square">
+              
               View All Events <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
           </div>
