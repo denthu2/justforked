@@ -260,7 +260,7 @@ export function Navigation() {
                 </button>
                 {expandedMobileSection === 'experience' && (
                   <div className="pl-4 mt-2 space-y-2">
-                    <a href="/team" className="block py-2 text-foreground/70 hover:text-primary">Meet the Team</a>
+                    <a href="/team" className="block py-2 text-foreground/70 hover:text-primary">Meet the Doctors</a>
                     <a href="/first-visit" className="block py-2 text-foreground/70 hover:text-primary">First Visit</a>
                     <a href="/technology" className="block py-2 text-foreground/70 hover:text-primary">Technology & Innovation</a>
                     <a href="/sustainability" className="block py-2 text-foreground/70 hover:text-primary">Sustainability</a>

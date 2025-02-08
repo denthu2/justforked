@@ -17,7 +17,7 @@ export default function SustainabilityPage() {
             playsInline
             className="w-full h-full object-cover"
           >
-            <source src="/videos/20250207_2139_Serene Spa Lounge_simple_compose_01jkht7341fw8syamjz8rypmbc.mp4" type="video/mp4" />
+            <source src="/videos/tranquil rise dental spa inset shelving waiting room.mp4" type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-black/40 mix-blend-multiply"></div>
         </div>
