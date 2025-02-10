@@ -145,7 +145,7 @@ export default function Home() {
               <div className="relative h-48">
               <img
       src="/images/textures/minimalist-botanical-composition-rise-dental.jpeg"  // Change this to the path of your image
-      alt="Holistic & Aesthetic Dentistry"
+      alt="Holistic & Cosmetic Dentistry"
       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
     />
                 <div className="absolute inset-0 bg-black/20"></div>
@@ -168,7 +168,7 @@ export default function Home() {
       </section>
 
 {/* Testimonials Section */}
-<section className="testimonials-gradient py-24">
+{/* <section className="testimonials-gradient py-24">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Trusted by patients who value quality, longevity, and a health-first approach.</h2>
@@ -279,7 +279,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-
+*\}
       
 
       {/* The Rise Difference Section */}
