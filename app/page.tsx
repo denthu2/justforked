@@ -24,7 +24,7 @@ export default function Home() {
         <div className="container mx-auto relative z-10 px-4">
           <div className="max-w-3xl text-white">
             <h1 className="text-5xl md:text-7xl font-bold mb-6">
-              Austin&apos;s Premier
+              Austin&apos;s 1st Premier
               <span className="block">Dental Wellness</span>
               <span className="block">Experience</span>
             </h1>
