@@ -7,18 +7,18 @@ import Script from 'next/script';
 export const metadata: Metadata = {
   metadataBase: new URL('https://risesmiles.com'),
   title: {
-    default: "Brushy Creek Dentist | Premier Modern Dental Wellness of Austin, Cedar Park, Texas | Rise Dental",
-    template: "%s | Rise Dental"
+    default: "Rise Dental | Premier Modern Wellness Dentistry in Austin, Brushy Creek, Cedar Park, Texas",
+    template: "%s | Rise Dental | Brushy Creek Dentist"
   },
-  description: "Rise Dental is a modern dental office in North Austin specializing in implants, cosmetic, and integrative dentistry. We offer concierge-style care with wellness-centered treatment that prioritize longevity and sustainability. Serving Brushy Creek, Cedar Park, Texas.",
+  description: "Rise Dental is the premier modern dental office of Austin specializing in implants, cosmetic, and integrative dentistry. We offer concierge-style care with wellness-centered treatment that prioritize longevity and sustainability. Serving Brushy Creek, Cedar Park, Texas.",
   keywords: "brushy creek dentist, cedar park dentist, austin dentist, gut health dentist, red light therapy dentist, cold sore dentist, sleep dentist, invisalign dentist, cost dentist, without insurance dentist, no insurance dentist, insurance breakdown dentist, insurance coverage dentist, implant dentistry, cosmetic dentistry, esthetic dentistry, dental bonding dentist, composite bonding dentist, pop on veneers dentist, affordable veneers dentist, dental implants",
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://risesmiles.com',
-    siteName: 'Rise Dental',
+    siteName: 'Rise Dental | Premier Modern Wellness Dentistry in Austin, Brushy Creek, Cedar Park, Texas',
     title: 'Modern Holistic Dentist in Cedar Park & Austin | Rise Dental',
-    description: 'Experience modern holistic dental care at Rise Dental. Advanced technology meets natural healing for optimal wellness in Cedar Park, Austin & Brushy Creek.',
+    description: 'Rise Dental is the premier modern dental office of Austin specializing in implants, cosmetic, and integrative dentistry. We offer concierge-style care with wellness-centered treatment that prioritize longevity and sustainability. Serving Brushy Creek, Cedar Park, Texas.',
     images: [
       {
         url: '/og-image.jpg',
