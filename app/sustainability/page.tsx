@@ -10,15 +10,11 @@ export default function SustainabilityPage() {
       {/* Hero Section */}
       <section className="relative h-[70vh] flex items-center hero-gradient">
         <div className="absolute inset-0 z-0">
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="w-full h-full object-cover"
-          >
-            <source src="/videos/tranquil rise dental spa inset shelving waiting room.mp4" type="video/mp4" />
-          </video>
+        <img
+      src="/images/textures/sunset-rocky-texture-rise-dental.jpg"
+      alt="Sunset Rocky Texture"
+      className="w-full h-full object-cover"
+    />
           <div className="absolute inset-0 bg-black/40 mix-blend-multiply"></div>
         </div>
         <div className="container mx-auto relative z-10 px-4">

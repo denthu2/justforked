@@ -24,12 +24,10 @@ export default function TechnologyPage() {
         <div className="container mx-auto relative z-10 px-4">
           <div className="max-w-3xl text-white">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Cedar Park's Most Advanced Dental Technology
-              <span className="block text-3xl md:text-4xl mt-2">Modern Holistic Dentistry in Austin & Brushy Creek</span>
+              Technology & Innovation
+              <span className="block text-2xl md:text-1xl mt-4 font-normal">Experience state-of-the-art dental care with our innovative approach to modern dentistry</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-200">
-              Experience state-of-the-art dental care with our innovative approach to modern dentistry
-            </p>
+          
             <Button className="bg-primary text-white hover:bg-primary/90" asChild>
               <a href="/waitlist">Experience Modern Holistic Dentistry</a>
             </Button>

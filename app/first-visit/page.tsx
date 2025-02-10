@@ -20,7 +20,7 @@ export default function FirstVisitPage() {
         <div className="container mx-auto relative z-10 px-4">
           <div className="max-w-3xl text-white">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Your First Visit at Rise
+              Your First Visit
               <span className="block text-2xl md:text-1xl mt-4 font-normal">A Whole-Body Approach to Modern Dental Health</span>
             </h1>
        
