@@ -41,7 +41,7 @@ export default function TeamPage() {
         <div className="absolute inset-0 bg-[url('/images/origami.jpg')] bg-fixed bg-cover bg-center opacity-5"></div>
         <div className="container mx-auto px-4 relative">
           <div className="flex justify-center"> {/* Updated this line to use flex and center alignment */}
-            <Card className="p-8 flex flex-col items-center text-center">
+            <Card className="p-8 flex flex-col items-center text-center max-w-md mx-auto">
               <div className="w-[250px] h-[250px] mb-8">
                 <img
                   src="/images/dr trinh brushy creek dentist.jpg"
@@ -53,22 +53,53 @@ export default function TeamPage() {
               <div>
                 <h3 className="text-2xl font-bold mb-2">Dr. Thu Trinh, DDS</h3>
                 <p className="text-gray-600 mb-4">Lead Dentist & Wellness Director</p>
-                <p className="text-gray-600 mb-6">
-                  With over a decade of experience in holistic dentistry, Dr. Trinh combines modern techniques with a whole-body approach to dental wellness. Certified in biomimetic dentistry and a fellow of the International Academy of Biological Dentistry & Medicine.
-                </p>
+                <p className="text-gray-700 mb-4">
+    Rise Dental's founder, Dr. Thu Trinh, is renowned for her commitment to holistic and biomimetic dentistry. Her approach integrates a deep understanding of how oral health impacts overall wellness.
+</p>
+<p className="text-gray-700 mb-4">
+    Rise Dental, envisioned and crafted by Dr. Trinh, offers a unique environment where patients are treated like esteemed guests in a charmingly inviting setting. As you walk in, you are greeted by the soothing ambiance of a thoughtfully designed interior that combines the comforts of a cozy home with the elegance of a boutique wellness center. 
+</p>
+<p className="text-gray-700 mb-4">
+    From your first visit, Rise Dental offers a bespoke experience where comfort and personal attention are paramount. Dr. Trinh’s meticulous approach ensures that each aspect of your care reflects a commitment to your health, comfort, and wellness.
+</p>
+
+
                 <div className="space-y-2">
-                  <div className="flex items-center justify-center text-gray-600">
+                <div className="flex items-center justify-center text-gray-600">
                     <Check className="h-5 w-5 text-primary mr-2" />
-                    <span>Biomimetic & Biological Dentistry Expert</span>
+                    <span>UCLA School of Dentistry (DDS)</span>
                   </div>
                   <div className="flex items-center justify-center text-gray-600">
                     <Check className="h-5 w-5 text-primary mr-2" />
-                    <span>Advanced Training in Sleep & TMJ Therapy</span>
+                    <span>Eastman Institute of Oral Health (AEGD)</span>
                   </div>
                   <div className="flex items-center justify-center text-gray-600">
                     <Check className="h-5 w-5 text-primary mr-2" />
-                    <span>Certified in Ceramic Implant Placement</span>
+                    <span>Surgical Implantology (ICOI)</span>
                   </div>
+                  <div className="flex items-center justify-center text-gray-600">
+                    <Check className="h-5 w-5 text-primary mr-2" />
+                    <span>Integrative & Biological Dentist (IAOMT)</span>
+                  </div>
+                  <div className="flex items-center justify-center text-gray-600">
+                    <Check className="h-5 w-5 text-primary mr-2" />
+                    <span>SMART Safe Mercury Amalgam Removal Certified</span>
+                  </div>
+                  
+                  <div className="flex items-center justify-center text-gray-600">
+                    <Check className="h-5 w-5 text-primary mr-2" />
+                    <span>Functional Occlusion Certified at Kois Institute</span>
+                  </div>
+                  
+                  <div className="flex items-center justify-center text-gray-600">
+                    <Check className="h-5 w-5 text-primary mr-2" />
+                    <span>Invisalign Clear Aligners Certified</span>
+                  </div>
+                  <div className="flex items-center justify-center text-gray-600">
+                    <Check className="h-5 w-5 text-primary mr-2" />
+                    <span>ADA, TDA, AGD Member</span>
+                  </div>
+                  
                 </div>
               </div>
             </Card>
