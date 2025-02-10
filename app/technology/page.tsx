@@ -10,15 +10,11 @@ export default function TechnologyPage() {
       {/* Hero Section */}
       <section className="relative h-[70vh] flex items-center hero-gradient">
         <div className="absolute inset-0 z-0">
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
+        <img
+            src="/images/textures/abstract-waves-rise-dental.jpg" // Update this path to the path of your new image
+            alt="Abstract waves at rise dental"
             className="w-full h-full object-cover"
-          >
-            <source src="/videos/tranquil rise dental spa inset shelving waiting room beautiful circular lounge sofa.mp4" type="video/mp4" />
-          </video>
+          />
           <div className="absolute inset-0 bg-black/40 mix-blend-multiply"></div>
         </div>
         <div className="container mx-auto relative z-10 px-4">

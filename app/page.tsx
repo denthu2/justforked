@@ -352,11 +352,11 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="card-outline overflow-hidden group">
               <div className="relative h-48">
-                <img
-                  src="https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&q=80"
-                  alt="Preventive Care"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
+              <img
+      src="/images/happy/happy-healthy-family-grandpa-grandson-kid-rise-dental.jpg"  // Change this to the path of your image
+      alt="Preventive Care"
+      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+    />
                 <div className="absolute inset-0 bg-black/20"></div>
                 <Microscope className="absolute top-4 left-4 h-8 w-8 text-white" />
               </div>
@@ -374,35 +374,36 @@ export default function Home() {
             </Card>
 
             <Card className="card-outline overflow-hidden group">
-              <div className="relative h-48">
-                <img
-                  src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80"
-                  alt="Restorative Care"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <div className="absolute inset-0 bg-black/20"></div>
-                <Tooth className="absolute top-4 left-4 h-8 w-8 text-white" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Restorative & Functional Dentistry</h3>
-                <ul className="space-y-2 mb-4 text-gray-600">
-                  <li>• Biomimetic Restorations</li>
-                  <li>• Metal-Free Implants</li>
-                  <li>• 3D-Printed Restorations</li>
-                </ul>
-                <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
-                  Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </div>
-            </Card>
+  <div className="relative h-48">
+    <img
+      src="/images/happy/elegant-luxury-smile-rise-dental.jpg"  // Change this to the path of your image
+      alt="Restorative Care"
+      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+    />
+    <div className="absolute inset-0 bg-black/20"></div>
+    <Tooth className="absolute top-4 left-4 h-8 w-8 text-white" />
+  </div>
+  <div className="p-6">
+    <h3 className="text-xl font-semibold mb-2">Restorative & Functional Dentistry</h3>
+    <ul className="space-y-2 mb-4 text-gray-600">
+      <li>• Biomimetic Restorations</li>
+      <li>• Metal-Free Implants</li>
+      <li>• 3D-Printed Restorations</li>
+    </ul>
+    <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
+      Learn More <ArrowRight className="ml-2 h-4 w-4" />
+    </Button>
+  </div>
+</Card>
+
 
             <Card className="card-outline overflow-hidden group">
               <div className="relative h-48">
-                <img
-                  src="https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80"
-                  alt="Holistic Care"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-                />
+              <img
+      src="/images/textures/minimalist-botanical-composition-rise-dental.jpeg"  // Change this to the path of your image
+      alt="Holistic & Aesthetic Dentistry"
+      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+    />
                 <div className="absolute inset-0 bg-black/20"></div>
                 <Leaf className="absolute top-4 left-4 h-8 w-8 text-white" />
               </div>

@@ -10,24 +10,19 @@ export default function TeamPage() {
       {/* Hero Section */}
       <section className="relative h-[70vh] flex items-center hero-gradient">
         <div className="absolute inset-0 z-0">
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
+        <img
+            src="/images/textures/green-palm-frond-texture-rise-dental.jpg" // Update this path to the path of your new image
+            alt="Rustic outdoor gathering of fruits and nature"
             className="w-full h-full object-cover"
-          >
-            <source src="/videos/20250207_2139_Serene Spa Lounge_simple_compose_01jkht7341fw8syamjz8rypmbc.mp4" type="video/mp4" />
-          </video>
+          />
           <div className="absolute inset-0 bg-black/40 mix-blend-multiply"></div>
         </div>
         <div className="container mx-auto relative z-10 px-4">
           <div className="max-w-3xl text-white">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Meet the Doctor
+              Meet our Dentist
               <span className="block text-2xl md:text-3xl mt-4 font-normal">
-                A dedicated team of professionals committed to your long-term health and comfort.
-              </span>
+              Pioneering a Holistic Approach to Your Dental Wellness </span>
             </h1>
             <Button className="bg-primary text-white hover:bg-primary/90"><a href="/waitlist">
               Schedule Your Visit</a> <ArrowRight className="ml-2 h-5 w-5" />

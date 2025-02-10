@@ -30,7 +30,7 @@ export default function MembershipPage() {
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
               VIP Care, Personalized for You
               <span className="block text-2xl md:text-3xl mt-4 font-normal">
-                A membership designed for those who value longevity, premium care, and an effortless patient experience.
+                A membership designed for those who value premium care and an effortless patient experience.
               </span>
             </h1>
             <Button className="bg-primary text-white hover:bg-primary/90" asChild>

@@ -128,7 +128,7 @@ export function Navigation() {
                 )}
               >
                 <div className="bg-white rounded-lg shadow-lg py-2">
-                  <a href="/team" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Meet the Doctor</a>
+                  <a href="/team" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Meet our Dentist</a>
                   <a href="/first-visit" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">First Visit</a>
                   <a href="/technology" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Technology & Innovation</a>
                   <a href="/sustainability" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Sustainability</a>
@@ -260,7 +260,7 @@ export function Navigation() {
                 </button>
                 {expandedMobileSection === 'experience' && (
                   <div className="pl-4 mt-2 space-y-2">
-                    <a href="/team" className="block py-2 text-foreground/70 hover:text-primary">Meet the Doctors</a>
+                    <a href="/team" className="block py-2 text-foreground/70 hover:text-primary">Meet our Dentist</a>
                     <a href="/first-visit" className="block py-2 text-foreground/70 hover:text-primary">First Visit</a>
                     <a href="/technology" className="block py-2 text-foreground/70 hover:text-primary">Technology & Innovation</a>
                     <a href="/sustainability" className="block py-2 text-foreground/70 hover:text-primary">Sustainability</a>
