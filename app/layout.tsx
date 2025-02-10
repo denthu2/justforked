@@ -16,15 +16,15 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://risesmiles.com',
-    siteName: 'Rise Dental | Premier Modern Wellness Dentistry in Austin, Brushy Creek, Cedar Park, Texas',
-    title: 'Modern Holistic Dentist in Cedar Park & Austin | Rise Dental',
+    siteName: 'Rise Dental',
+    title: 'Premier Modern Wellness Dentistry in Austin, Brushy Creek, Cedar Park, Texas',
     description: 'Rise Dental is the premier modern dental office of Austin specializing in implants, cosmetic, and integrative dentistry. We offer concierge-style care with wellness-centered treatment that prioritize longevity and sustainability. Serving Brushy Creek, Cedar Park, Texas.',
     images: [
       {
         url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Rise Dental - Modern Holistic Dentistry in Cedar Park',
+        alt: 'Rise Dental - Modern Wellness Dentistry in Austin',
       },
     ],
   },
