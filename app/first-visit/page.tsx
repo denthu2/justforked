@@ -10,26 +10,20 @@ export default function FirstVisitPage() {
       {/* Hero Section */}
       <section className="relative h-[70vh] flex items-center hero-gradient">
         <div className="absolute inset-0 z-0">
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="w-full h-full object-cover"
-          >
-            <source src="/videos/20250207_2132_Tranquil Dental Oasis_simple_compose_01jkhstf16fjz9m32ppz6n0scd.mp4" type="video/mp4" />
-          </video>
+        <img
+      src="/images/textures/fresh-grapefruit-water-rise-dental.jpg"
+      alt="Refreshing grapefruit water at Rise Dental"
+      className="w-full h-full object-cover"
+    />
           <div className="absolute inset-0 bg-black/40 mix-blend-multiply"></div>
         </div>
         <div className="container mx-auto relative z-10 px-4">
           <div className="max-w-3xl text-white">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Your First Visit
-              <span className="block text-3xl md:text-4xl mt-2">A Whole-Body Approach to Modern Dental Health</span>
+              Your First Visit at Rise
+              <span className="block text-2xl md:text-1xl mt-4 font-normal">A Whole-Body Approach to Modern Dental Health</span>
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-gray-200">
-              Experience Austin's most comprehensive holistic dental care, serving Cedar Park, Brushy Creek, and surrounding areas.
-            </p>
+       
             <div className="flex flex-wrap gap-4">
               <Button className="bg-primary text-white hover:bg-primary/90" asChild>
                 <a href="/waitlist">Schedule Your First Visit</a>
