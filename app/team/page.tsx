@@ -20,7 +20,7 @@ export default function TeamPage() {
         <div className="container mx-auto relative z-10 px-4">
           <div className="max-w-3xl text-white">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Meet our Dentist
+              Meet our Austin Dentist
               <span className="block text-2xl md:text-3xl mt-4 font-normal">
               Pioneering a Holistic Approach to Your Dental Wellness </span>
             </h1>
