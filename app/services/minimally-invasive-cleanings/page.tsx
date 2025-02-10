@@ -10,15 +10,11 @@ export default function MinimallyInvasiveCleaningsPage() {
       {/* Hero Section */}
       <section className="relative h-[70vh] flex items-center hero-gradient">
         <div className="absolute inset-0 z-0">
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
+        <img
+            src="/images/treatment/facial-care-light-therapy-rise-dental.jpg" // Update this path to the path of your new image
+            alt="Minimally invasive cleanings at Rise Dental"
             className="w-full h-full object-cover"
-          >
-            <source src="/videos/20250207_2132_Tranquil Dental Oasis_simple_compose_01jkhstf16fjz9m32ppz6n0scd.mp4" type="video/mp4" />
-          </video>
+          />
           <div className="absolute inset-0 bg-black/40 mix-blend-multiply"></div>
         </div>
         <div className="container mx-auto relative z-10 px-4">

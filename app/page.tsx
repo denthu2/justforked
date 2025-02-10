@@ -368,7 +368,7 @@ export default function Home() {
                   <li>• Minimally Invasive Cleanings</li>
                 </ul>
                 <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
-                  Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                Learn More <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </div>
             </Card>
@@ -510,7 +510,7 @@ export default function Home() {
         </div>
       </section>
       {/* Events Section */}
-      <section className="py-24 bg-[#F8F7F5]">
+      {/* <section className="py-24 bg-[#F8F7F5]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Empowering Wellness Through Education & Community</h2>
@@ -591,7 +591,7 @@ export default function Home() {
             </Button>
           </div>
         </div>
-      </section>
+  </section> */}
 
       {/* Final CTA Section */}
       <section className="py-24 bg-white relative overflow-hidden">
