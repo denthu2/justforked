@@ -7,11 +7,11 @@ import Script from 'next/script';
 export const metadata: Metadata = {
   metadataBase: new URL('https://risesmiles.com'),
   title: {
-    default: "Modern Holistic Dentist in Cedar Park & Austin | Rise Dental",
+    default: "Brushy Creek Dentist | Premier Modern Dental Wellness of Austin, Cedar Park, Texas | Rise Dental",
     template: "%s | Rise Dental"
   },
-  description: "Experience modern holistic dental care at Rise Dental in Cedar Park, serving Austin & Brushy Creek. We combine advanced technology with natural healing approaches for optimal wellness.",
-  keywords: "cedar park dentist, austin holistic dentist, brushy creek dentist, modern dental office, holistic dentist, wellness dentistry, sustainable dentistry, biological dentistry",
+  description: "Rise Dental is a modern dental office in North Austin specializing in implants, cosmetic, and integrative dentistry. We offer concierge-style care with wellness-centered treatment that prioritize longevity and sustainability. Serving Brushy Creek, Cedar Park, Texas.",
+  keywords: "brushy creek dentist, cedar park dentist, austin dentist, gut health dentist, red light therapy dentist, cold sore dentist, sleep dentist, invisalign dentist, cost dentist, without insurance dentist, no insurance dentist, insurance breakdown dentist, insurance coverage dentist, implant dentistry, cosmetic dentistry, esthetic dentistry, dental bonding dentist, composite bonding dentist, pop on veneers dentist, affordable veneers dentist, dental implants",
   openGraph: {
     type: 'website',
     locale: 'en_US',
