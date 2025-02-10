@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Linkedin, Mail, Phone, MapPin, Clock } from 'lucide-react';
+import { Instagram, Facebook, Mail, Phone, MapPin, Clock } from 'lucide-react';
 
 export function Footer() {
   return (
@@ -71,15 +71,13 @@ export function Footer() {
             <p className="text-gray-400 mb-4">Follow us for dental wellness tips and updates</p>
             <p className="text-gray-400 mb-6">Share your smile journey with<br />#RiseSmiles</p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://instagram.com/risesmiles" className="text-gray-400 hover:text-white transition-colors">
                 <Instagram className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
+              <a href="https://facebook.com/risesmiles" className="text-gray-400 hover:text-white transition-colors">
                 <Facebook className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                <Linkedin className="h-6 w-6" />
-              </a>
+        
             </div>
           </div>
         </div>

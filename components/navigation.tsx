@@ -200,7 +200,7 @@ export function Navigation() {
               Membership
             </a>
 
-            <a 
+            {/* <a 
               href="/events" 
               className={cn(
                 "text-sm font-medium transition-colors hover:text-primary py-2",
@@ -208,9 +208,9 @@ export function Navigation() {
               )}
             >
               Events
-            </a>
+              </a> */}
 
-            <a 
+            {/* <a 
               href="/blog" 
               className={cn(
                 "text-sm font-medium transition-colors hover:text-primary py-2",
@@ -218,7 +218,7 @@ export function Navigation() {
               )}
             >
               Blog
-            </a>
+              </a> */}
 
             <Button className="bg-primary text-white hover:bg-primary/90" asChild>
               <a href="/waitlist">Join The Waitlist</a>
@@ -317,8 +317,8 @@ export function Navigation() {
               </div>
 
               <a href="/membership" className="py-2 text-foreground hover:text-primary">Membership</a>
-              <a href="/events" className="py-2 text-foreground hover:text-primary">Events</a>
-              <a href="/blog" className="py-2 text-foreground hover:text-primary">Blog</a>
+              {/* <a href="/events" className="py-2 text-foreground hover:text-primary">Events</a> */}
+              {/* <a href="/blog" className="py-2 text-foreground hover:text-primary">Blog</a> */}
 
               <Button className="bg-primary text-white hover:bg-primary/90 w-full mt-4" asChild>
                 <a href="/waitlist">Join The Priority Waitlist</a>
