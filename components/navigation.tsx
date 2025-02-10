@@ -221,7 +221,7 @@ export function Navigation() {
             </a>
 
             <Button className="bg-primary text-white hover:bg-primary/90" asChild>
-              <a href="/waitlist">Join Our Priority Waitlist</a>
+              <a href="/waitlist">Join The Waitlist</a>
             </Button>
           </div>
 

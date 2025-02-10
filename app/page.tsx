@@ -48,7 +48,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[url('/images/origami.jpg')] bg-fixed bg-cover bg-center opacity-5"></div>
         <div className="container mx-auto px-4 relative">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Rise Dental: Where Wellness Meets Practicality</h2>
+            <h2 className="text-4xl font-bold mb-4">Rise Dental: Where Wellness Meets Simplicity</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             At Rise Dental, wellness isn’t an abstract ideal—it’s a practical, intentional approach to lifelong health. We bridge the gap between traditional dentistry and modern care, making it easy to take meaningful steps toward better health.
 
@@ -83,6 +83,204 @@ export default function Home() {
           </div>
         </div>
       </section>
+{/* Services Section */}
+<section className="py-20 bg-[#F8F7F5]">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4">Modern Dentistry, Designed for Life</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Experience comprehensive dental care that focuses on your long-term health and wellness.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="card-outline overflow-hidden group">
+              <div className="relative h-48">
+              <img
+      src="/images/happy/happy-healthy-family-grandpa-grandson-kid-rise-dental.jpg"  // Change this to the path of your image
+      alt="Preventive Care"
+      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+    />
+                <div className="absolute inset-0 bg-black/20"></div>
+                <Microscope className="absolute top-4 left-4 h-8 w-8 text-white" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Preventive & Diagnostic Care</h3>
+                <ul className="space-y-2 mb-4 text-gray-600">
+                  <li>• Saliva Testing</li>
+                  <li>• Digital Scans</li>
+                  <li>• Minimally Invasive Cleanings</li>
+                </ul>
+                <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
+                Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </div>
+            </Card>
+
+            <Card className="card-outline overflow-hidden group">
+  <div className="relative h-48">
+    <img
+      src="/images/happy/elegant-luxury-smile-rise-dental.jpg"  // Change this to the path of your image
+      alt="Restorative Care"
+      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+    />
+    <div className="absolute inset-0 bg-black/20"></div>
+    <Tooth className="absolute top-4 left-4 h-8 w-8 text-white" />
+  </div>
+  <div className="p-6">
+    <h3 className="text-xl font-semibold mb-2">Restorative & Functional Dentistry</h3>
+    <ul className="space-y-2 mb-4 text-gray-600">
+      <li>• Biomimetic Restorations</li>
+      <li>• Metal-Free Implants</li>
+      <li>• 3D-Printed Restorations</li>
+    </ul>
+    <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
+      Learn More <ArrowRight className="ml-2 h-4 w-4" />
+    </Button>
+  </div>
+</Card>
+
+
+            <Card className="card-outline overflow-hidden group">
+              <div className="relative h-48">
+              <img
+      src="/images/textures/minimalist-botanical-composition-rise-dental.jpeg"  // Change this to the path of your image
+      alt="Holistic & Aesthetic Dentistry"
+      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+    />
+                <div className="absolute inset-0 bg-black/20"></div>
+                <Leaf className="absolute top-4 left-4 h-8 w-8 text-white" />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-semibold mb-2">Holistic & Aesthetic Dentistry</h3>
+                <ul className="space-y-2 mb-4 text-gray-600">
+                  <li>• Subtle Smile Enhancements</li>
+                  <li>• TMJ & Sleep Optimization</li>
+                  <li>• Longevity-Focused Care</li>
+                </ul>
+                <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
+                  Learn More <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </div>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+{/* Testimonials Section */}
+<section className="testimonials-gradient py-24">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4">Trusted by patients who value quality, longevity, and a health-first approach.</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Join our community of satisfied patients who've experienced the difference of our holistic approach to dental wellness.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-12">
+            <Card className="card-outline p-8 bg-white/95 backdrop-blur-sm">
+              <div className="flex items-center mb-6">
+                <div className="flex text-primary">
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                </div>
+              </div>
+              <p className="text-gray-600 mb-6">
+                "A truly personalized experience, unlike any dental visit I've had before. The team takes time to understand your overall health goals."
+              </p>
+              <div className="flex items-center">
+                <div className="h-12 w-12 rounded-full overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80"
+                    alt="Sarah M."
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                <div className="ml-3">
+                  <p className="font-semibold">Sarah M.</p>
+                  <p className="text-sm text-gray-500">Verified Patient</p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="card-outline p-8 bg-white/95 backdrop-blur-sm">
+              <div className="flex items-center mb-6">
+                <div className="flex text-primary">
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                </div>
+              </div>
+              <p className="text-gray-600 mb-6">
+                "The team takes time to explain everything and customize my care plan. Their holistic approach has made a real difference in my overall health."
+              </p>
+              <div className="flex items-center">
+                <div className="h-12 w-12 rounded-full overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80"
+                    alt="Michael R."
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                <div className="ml-3">
+                  <p className="font-semibold">Michael R.</p>
+                  <p className="text-sm text-gray-500">Verified Patient</p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="card-outline p-8 bg-white/95 backdrop-blur-sm">
+              <div className="flex items-center mb-6">
+                <div className="flex text-primary">
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                  <Star className="h-5 w-5 fill-current" />
+                </div>
+              </div>
+              <p className="text-gray-600 mb-6">
+                "High-tech, modern, and sustainability-focused—it's the future of dentistry. I appreciate their commitment to using eco-friendly practices."
+              </p>
+              <div className="flex items-center">
+                <div className="h-12 w-12 rounded-full overflow-hidden">
+                  <img
+                    src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80"
+                    alt="Emily L."
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                <div className="ml-3">
+                  <p className="font-semibold">Emily L.</p>
+                  <p className="text-sm text-gray-500">Verified Patient</p>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          <div className="text-center">
+            <a 
+              href="https://www.google.com/maps" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center"
+            >
+              <Button variant="outline" className="btn-outline-square gap-2">
+                <Star className="h-5 w-5" />
+                Read Our 5-Star Google Reviews
+                <ArrowRight className="h-5 w-5" />
+              </Button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      
 
       {/* The Rise Difference Section */}
       <section className="py-24 bg-white relative overflow-hidden">
@@ -226,202 +424,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-{/* Testimonials Section */}
-      <section className="testimonials-gradient py-24">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Trusted by patients who value quality, longevity, and a health-first approach.</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Join our community of satisfied patients who've experienced the difference of our holistic approach to dental wellness.
-            </p>
-          </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-12">
-            <Card className="card-outline p-8 bg-white/95 backdrop-blur-sm">
-              <div className="flex items-center mb-6">
-                <div className="flex text-primary">
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                </div>
-              </div>
-              <p className="text-gray-600 mb-6">
-                "A truly personalized experience, unlike any dental visit I've had before. The team takes time to understand your overall health goals."
-              </p>
-              <div className="flex items-center">
-                <div className="h-12 w-12 rounded-full overflow-hidden">
-                  <img
-                    src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80"
-                    alt="Sarah M."
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-                <div className="ml-3">
-                  <p className="font-semibold">Sarah M.</p>
-                  <p className="text-sm text-gray-500">Verified Patient</p>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="card-outline p-8 bg-white/95 backdrop-blur-sm">
-              <div className="flex items-center mb-6">
-                <div className="flex text-primary">
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                </div>
-              </div>
-              <p className="text-gray-600 mb-6">
-                "The team takes time to explain everything and customize my care plan. Their holistic approach has made a real difference in my overall health."
-              </p>
-              <div className="flex items-center">
-                <div className="h-12 w-12 rounded-full overflow-hidden">
-                  <img
-                    src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80"
-                    alt="Michael R."
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-                <div className="ml-3">
-                  <p className="font-semibold">Michael R.</p>
-                  <p className="text-sm text-gray-500">Verified Patient</p>
-                </div>
-              </div>
-            </Card>
-
-            <Card className="card-outline p-8 bg-white/95 backdrop-blur-sm">
-              <div className="flex items-center mb-6">
-                <div className="flex text-primary">
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                  <Star className="h-5 w-5 fill-current" />
-                </div>
-              </div>
-              <p className="text-gray-600 mb-6">
-                "High-tech, modern, and sustainability-focused—it's the future of dentistry. I appreciate their commitment to using eco-friendly practices."
-              </p>
-              <div className="flex items-center">
-                <div className="h-12 w-12 rounded-full overflow-hidden">
-                  <img
-                    src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80"
-                    alt="Emily L."
-                    className="h-full w-full object-cover"
-                  />
-                </div>
-                <div className="ml-3">
-                  <p className="font-semibold">Emily L.</p>
-                  <p className="text-sm text-gray-500">Verified Patient</p>
-                </div>
-              </div>
-            </Card>
-          </div>
-
-          <div className="text-center">
-            <a 
-              href="https://www.google.com/maps" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center"
-            >
-              <Button variant="outline" className="btn-outline-square gap-2">
-                <Star className="h-5 w-5" />
-                Read Our 5-Star Google Reviews
-                <ArrowRight className="h-5 w-5" />
-              </Button>
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Services Section */}
-      <section className="py-20 bg-[#F8F7F5]">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Modern Dentistry, Designed for Life</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Experience comprehensive dental care that focuses on your long-term health and wellness.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <Card className="card-outline overflow-hidden group">
-              <div className="relative h-48">
-              <img
-      src="/images/happy/happy-healthy-family-grandpa-grandson-kid-rise-dental.jpg"  // Change this to the path of your image
-      alt="Preventive Care"
-      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-    />
-                <div className="absolute inset-0 bg-black/20"></div>
-                <Microscope className="absolute top-4 left-4 h-8 w-8 text-white" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Preventive & Diagnostic Care</h3>
-                <ul className="space-y-2 mb-4 text-gray-600">
-                  <li>• Saliva Testing</li>
-                  <li>• Digital Scans</li>
-                  <li>• Minimally Invasive Cleanings</li>
-                </ul>
-                <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
-                Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </div>
-            </Card>
-
-            <Card className="card-outline overflow-hidden group">
-  <div className="relative h-48">
-    <img
-      src="/images/happy/elegant-luxury-smile-rise-dental.jpg"  // Change this to the path of your image
-      alt="Restorative Care"
-      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-    />
-    <div className="absolute inset-0 bg-black/20"></div>
-    <Tooth className="absolute top-4 left-4 h-8 w-8 text-white" />
-  </div>
-  <div className="p-6">
-    <h3 className="text-xl font-semibold mb-2">Restorative & Functional Dentistry</h3>
-    <ul className="space-y-2 mb-4 text-gray-600">
-      <li>• Biomimetic Restorations</li>
-      <li>• Metal-Free Implants</li>
-      <li>• 3D-Printed Restorations</li>
-    </ul>
-    <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
-      Learn More <ArrowRight className="ml-2 h-4 w-4" />
-    </Button>
-  </div>
-</Card>
-
-
-            <Card className="card-outline overflow-hidden group">
-              <div className="relative h-48">
-              <img
-      src="/images/textures/minimalist-botanical-composition-rise-dental.jpeg"  // Change this to the path of your image
-      alt="Holistic & Aesthetic Dentistry"
-      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-    />
-                <div className="absolute inset-0 bg-black/20"></div>
-                <Leaf className="absolute top-4 left-4 h-8 w-8 text-white" />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Holistic & Aesthetic Dentistry</h3>
-                <ul className="space-y-2 mb-4 text-gray-600">
-                  <li>• Subtle Smile Enhancements</li>
-                  <li>• TMJ & Sleep Optimization</li>
-                  <li>• Longevity-Focused Care</li>
-                </ul>
-                <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
-                  Learn More <ArrowRight className="ml-2 h-4 w-4" />
-                </Button>
-              </div>
-            </Card>
-          </div>
-        </div>
-      </section>
 
       {/* Membership Section */}
       <section className="py-24 membership-gradient relative overflow-hidden">
@@ -609,7 +612,7 @@ export default function Home() {
                 <h3 className="text-xl font-bold mb-2">Schedule a Visit</h3>
                 <p className="text-gray-600 mb-6">Join our priority waitlist to be among the first to experience our wellness-focused approach.</p>
                 <Button className="bg-primary text-white hover:bg-primary/90 w-full" asChild>
-                  <a href="/waitlist">Join Our Waitlist</a>
+                  <a href="/waitlist">Join The Waitlist</a>
                 </Button>
               </Card>
 
@@ -636,7 +639,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-primary text-white hover:bg-primary/90" asChild>
-                <a href="/waitlist">Join Our Priority Waitlist</a>
+                <a href="/waitlist">Join The Waitlist</a>
               </Button>
             </div>
           </div>
