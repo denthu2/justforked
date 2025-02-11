@@ -86,155 +86,154 @@ export default function FirstVisitPage() {
 
           <div className="max-w-5xl mx-auto">
             <div className="grid gap-8">
-              {/* Step 1 */}
-              <Card className="p-8">
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0">
-                    <div className="h-12 w-12 bg-primary/10 rounded-full flex items-center justify-center">
-                      <span className="text-xl font-bold text-primary">1</span>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold mb-4">Oral & Systemic Health Assessment</h3>
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <ul className="space-y-3">
-                        <li className="flex items-start">
-                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                          <span className="text-gray-600">Oral microbiome & saliva testing to assess bacterial balance</span>
-                        </li>
-                        <li className="flex items-start">
-                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                          <span className="text-gray-600">pH testing for acidity and remineralization potential</span>
-                        </li>
-                      </ul>
-                      <ul className="space-y-3">
-                        <li className="flex items-start">
-                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                          <span className="text-gray-600">Periodontal health check and inflammation screening</span>
-                        </li>
-                        <li className="flex items-start">
-                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                          <span className="text-gray-600">Soft tissue examination for pathology detection</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </Card>
+              {/* {/* Step 1 */}
+<Card className="p-8">
+  <div className="flex items-start gap-6">
+    <div className="flex-shrink-0">
+      <div className="h-12 w-12 bg-primary/10 rounded-full flex items-center justify-center">
+        <span className="text-xl font-bold text-primary">1</span>
+      </div>
+    </div>
+    <div>
+      <h3 className="text-2xl font-bold mb-4">Oral & Systemic Health Check</h3>
+      <div className="grid md:grid-cols-2 gap-6">
+        <ul className="space-y-3">
+          <li className="flex items-start">
+            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+            <span className="text-gray-600">We test your saliva to understand the balance of bacteria in your mouth, which can affect your overall health.</span>
+          </li>
+          <li className="flex items-start">
+            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+            <span className="text-gray-600">We check the acidity of your saliva to see how well your teeth can fight off decay and stay strong.</span>
+          </li>
+        </ul>
+        <ul className="space-y-3">
+          <li className="flex items-start">
+            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+            <span className="text-gray-600">We assess your gums for any signs of disease or inflammation.</span>
+          </li>
+          <li className="flex items-start">
+            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+            <span className="text-gray-600">We examine the inside of your mouth to ensure there are no unusual growths or issues.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</Card>
 
-              {/* Step 2 */}
-              <Card className="p-8">
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0">
-                    <div className="h-12 w-12 bg-primary/10 rounded-full flex items-center justify-center">
-                      <span className="text-xl font-bold text-primary">2</span>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold mb-4">Kois Risk Assessment</h3>
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <div>
-                        <h4 className="font-bold mb-2">Biomechanical Risk</h4>
-                        <ul className="space-y-3">
-                          <li className="flex items-start">
-                            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                            <span className="text-gray-600">Evaluating existing restorations and caries risk</span>
-                          </li>
-                          <li className="flex items-start">
-                            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                            <span className="text-gray-600">Fracture susceptibility assessment</span>
-                          </li>
-                        </ul>
-                      </div>
-                      <div>
-                        <h4 className="font-bold mb-2">Periodontal Risk</h4>
-                        <ul className="space-y-3">
-                          <li className="flex items-start">
-                            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                            <span className="text-gray-600">Comprehensive periodontal evaluation</span>
-                          </li>
-                          <li className="flex items-start">
-                            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                            <span className="text-gray-600">Systemic health impact assessment</span>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </Card>
+{/* Step 2 */}
+<Card className="p-8">
+  <div className="flex items-start gap-6">
+    <div className="flex-shrink-0">
+      <div className="h-12 w-12 bg-primary/10 rounded-full flex items-center justify-center">
+        <span className="text-xl font-bold text-primary">2</span>
+      </div>
+    </div>
+    <div>
+      <h3 className="text-2xl font-bold mb-4">Risk Assessment for Dental Health</h3>
+      <div className="grid md:grid-cols-2 gap-6">
+        <div>
+          <h4 className="font-bold mb-2">Biomechanical Risk</h4>
+          <ul className="space-y-3">
+            <li className="flex items-start">
+              <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+              <span className="text-gray-600">We look at your existing fillings and assess your risk for cavities.</span>
+            </li>
+            <li className="flex items-start">
+              <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+              <span className="text-gray-600">We evaluate how likely your teeth are to crack or break.</span>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4 className="font-bold mb-2">Periodontal Risk</h4>
+          <ul className="space-y-3">
+            <li className="flex items-start">
+              <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+              <span className="text-gray-600">We conduct a thorough check of your gum health.</span>
+            </li>
+            <li className="flex items-start">
+              <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+              <span className="text-gray-600">We consider how your overall health might impact your oral health.</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</Card>
+{/* Step 3 */}
+<Card className="p-8">
+  <div className="flex items-start gap-6">
+    <div className="flex-shrink-0">
+      <div className="h-12 w-12 bg-primary/10 rounded-full flex items-center justify-center">
+        <span className="text-xl font-bold text-primary">3</span>
+      </div>
+    </div>
+    <div>
+      <h3 className="text-2xl font-bold mb-4">Breathing & Sleep Health</h3>
+      <div className="grid md:grid-cols-2 gap-6">
+        <ul className="space-y-3">
+          <li className="flex items-start">
+            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+            <span className="text-gray-600">We use advanced 3D imaging to check your airway health, important for breathing and sleep.</span>
+          </li>
+          <li className="flex items-start">
+            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+            <span className="text-gray-600">We evaluate your tongue position and nasal breathing, which are crucial for proper airway function.</span>
+          </li>
+        </ul>
+        <ul className="space-y-3">
+          <li className="flex items-start">
+            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+            <span className="text-gray-600">We analyze any breathing-related sleep issues you may have, like sleep apnea.</span>
+          </li>
+          <li className="flex items-start">
+            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+            <span className="text-gray-600">We assess habits that may affect your mouth and facial muscles, like thumb sucking or tongue thrusting.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</Card>
 
-              {/* Step 3 */}
-              <Card className="p-8">
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0">
-                    <div className="h-12 w-12 bg-primary/10 rounded-full flex items-center justify-center">
-                      <span className="text-xl font-bold text-primary">3</span>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold mb-4">Airway, Sleep & Breathing Functionality</h3>
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <ul className="space-y-3">
-                        <li className="flex items-start">
-                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                          <span className="text-gray-600">3D imaging (CBCT) for airway assessment</span>
-                        </li>
-                        <li className="flex items-start">
-                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                          <span className="text-gray-600">Tongue posture and nasal breathing evaluation</span>
-                        </li>
-                      </ul>
-                      <ul className="space-y-3">
-                        <li className="flex items-start">
-                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                          <span className="text-gray-600">Sleep-disordered breathing analysis</span>
-                        </li>
-                        <li className="flex items-start">
-                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                          <span className="text-gray-600">Myofunctional habits assessment</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </Card>
-
-              {/* Step 4 */}
-              <Card className="p-8">
-                <div className="flex items-start gap-6">
-                  <div className="flex-shrink-0">
-                    <div className="h-12 w-12 bg-primary/10 rounded-full flex items-center justify-center">
-                      <span className="text-xl font-bold text-primary">4</span>
-                    </div>
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold mb-4">Biocompatibility & Restorative Health</h3>
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <ul className="space-y-3">
-                        <li className="flex items-start">
-                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                          <span className="text-gray-600">Safe mercury removal evaluation</span>
-                        </li>
-                        <li className="flex items-start">
-                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                          <span className="text-gray-600">Metal sensitivity assessment</span>
-                        </li>
-                      </ul>
-                      <ul className="space-y-3">
-                        <li className="flex items-start">
-                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                          <span className="text-gray-600">Biocompatibility testing for materials</span>
-                        </li>
-                        <li className="flex items-start">
-                          <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                          <span className="text-gray-600">Existing restoration review</span>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </Card>
+{/* Step 4 */}
+<Card className="p-8">
+  <div className="flex items-start gap-6">
+    <div className="flex-shrink-0">
+      <div className="h-12 w-12 bg-primary/10 rounded-full flex items-center justify-center">
+        <span className="text-xl font-bold text-primary">4</span>
+      </div>
+    </div>
+    <div>
+      <h3 className="text-2xl font-bold mb-4">Restorative & Material Safety</h3>
+      <div className="grid md:grid-cols-2 gap-6">
+        <ul className="space-y-3">
+          <li className="flex items-start">
+            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+            <span className="text-gray-600">We evaluate whether your existing mercury fillings need safe removal according to strict health standards.</span>
+          </li>
+          <li className="flex items-start">
+            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+            <span className="text-gray-600">We assess your sensitivity to dental metals to ensure we use materials that are safe and suitable for you.</span>
+          </li>
+        </ul>
+        <ul className="space-y-3">
+          <li className="flex items-start">
+            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+            <span className="text-gray-600">We test the compatibility of various materials with your body to ensure they do not cause adverse reactions.</span>
+          </li>
+          <li className="flex items-start">
+            <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+            <span className="text-gray-600">We review all your current restorations to ensure they are functioning well and do not pose any health risks.</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</Card>
             </div>
           </div>
         </div>
@@ -309,6 +308,8 @@ export default function FirstVisitPage() {
                 </li>
               </ul>
             </Card>
+            
+
           </div>
         </div>
       </section>

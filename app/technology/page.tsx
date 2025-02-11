@@ -153,7 +153,7 @@ export default function TechnologyPage() {
 
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <Card className="p-8 text-center">
-              <div className="text-4xl font-bold text-primary mb-2">99%</div>
+              <div className="text-4xl font-bold text-primary mb-2">95%</div>
               <h3 className="text-xl font-bold mb-4">Diagnostic Accuracy</h3>
               <p className="text-gray-600">Enhanced precision with AI-assisted technology</p>
             </Card>
