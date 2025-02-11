@@ -77,7 +77,7 @@ export default function Home() {
               <Shield className="h-12 w-12 mb-4 text-primary" />
               <h3 className="text-xl font-semibold mb-2">Comprehensive Care</h3>
               <p className="text-gray-600">
-                From preventive care to advanced treatments, all in one luxurious setting.
+                From preventive care to advanced treatments, in a thoughtfully designed, luxurious setting.
               </p>
             </Card>
           </div>
@@ -136,7 +136,7 @@ export default function Home() {
       <li>• Cosmetic Dentistry</li>
       <li>• Invisalign</li>
       <li>• Dental Implants</li>
-      <li>• Dental Emergencies</li>
+      
     </ul>
     <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
       Learn More <ArrowRight className="ml-2 h-4 w-4" />
