@@ -195,7 +195,15 @@ export function Navigation() {
             >
               Membership
             </a>
-
+            <a 
+              href="/faq" 
+              className={cn(
+                "text-sm font-medium transition-colors hover:text-primary py-2",
+                isHomePage && !isScrolled ? "text-white hover:text-white/80" : "text-foreground"
+              )}
+            >
+              FAQs
+            </a>
             {/* <a 
               href="/events" 
               className={cn(
@@ -260,8 +268,7 @@ export function Navigation() {
                     <a href="/first-visit" className="block py-2 text-foreground/70 hover:text-primary">First Visit</a>
                     <a href="/technology" className="block py-2 text-foreground/70 hover:text-primary">Technology</a>
                     <a href="/sustainability" className="block py-2 text-foreground/70 hover:text-primary">Sustainability</a>
-                    <a href="/faq" className="block py-2 text-foreground/70 hover:text-primary">FAQs</a>
-                  </div>
+                    </div>
                 )}
               </div>
 
@@ -313,6 +320,7 @@ export function Navigation() {
               </div>
 
               <a href="/membership" className="py-2 text-foreground hover:text-primary">Membership</a>
+              <a href="/faq" className="py-2 text-foreground hover:text-primary">FAQs</a>
               {/* <a href="/events" className="py-2 text-foreground hover:text-primary">Events</a> */}
               {/* <a href="/blog" className="py-2 text-foreground hover:text-primary">Blog</a> */}
 
