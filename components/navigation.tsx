@@ -317,7 +317,7 @@ export function Navigation() {
               {/* <a href="/blog" className="py-2 text-foreground hover:text-primary">Blog</a> */}
 
               <Button className="bg-primary text-white hover:bg-primary/90 w-full mt-4" asChild>
-                <a href="/waitlist">Join The Priority Waitlist</a>
+                <a href="/waitlist">Join The Waitlist</a>
               </Button>
             </div>
           </div>
