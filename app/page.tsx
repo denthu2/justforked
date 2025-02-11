@@ -29,7 +29,7 @@ export default function Home() {
               <span className="block">Experience</span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-gray-200">
-              Your Invitation to Longevity and Good Health Starts Here.
+              Your Invitation to Good Health & Longevity Starts Here.
             </p>
             <div className="flex gap-4">
               <Button className="bg-primary text-white hover:bg-primary/90" asChild>
@@ -89,7 +89,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Modern Dentistry, Designed for Life</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Experience comprehensive dental care that focuses on your long-term health and wellness.
+              Experience comprehensive dental care services that focuses on your long-term health and wellness.
             </p>
           </div>
 
@@ -589,7 +589,7 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-5xl font-bold mb-6">Experience dentistry with intention.</h2>
             <p className="text-xl text-gray-600 mb-12 max-w-2xl mx-auto">
-              Whether you're a first-time wellness patient or looking for a new dental experience, we make things simple, clear, and seamless.
+              Whether you're a first-time wellness patient or looking for a new dental experience, we are excited to meet you.
             </p>
             
             <div className="grid md:grid-cols-2 gap-8 mb-12">
