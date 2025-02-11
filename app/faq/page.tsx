@@ -130,7 +130,7 @@ export default function FAQPage() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-5xl font-bold mb-6">Frequently Asked Questions</h1>
             <p className="text-xl text-gray-600 mb-8">
-              We believe in transparency—here are the answers to the most common questions about our care, philosophy, and services.
+              Your answers to the most common questions about our care, philosophy, and services.
             </p>
             <Button className="bg-primary text-white hover:bg-primary/90" asChild>
               <a href="#contact">Still have questions? Contact Us <ArrowRight className="ml-2 h-5 w-5" /></a>
