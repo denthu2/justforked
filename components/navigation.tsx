@@ -21,8 +21,8 @@ export function Navigation() {
       items: [
         { title: "Gentle Cleanings", href: "/services/minimally-invasive-cleanings" },
         { title: "Low-dose X-rays" },
-        { title: "Fluoride-Free Treatments" },
-        { title: "BPA-Free Mouth Guards" }
+        { title: "Fluoride-Free Treatments" }
+       
         
         
       ]
@@ -32,10 +32,10 @@ export function Navigation() {
       items: [
         { title: "Fillings & Crowns", href: "/services/biomimetic-restorations" },
         { title: "Cosmetic Dentistry", href: "/services/smile-rejuvenation" },
-        { title: "Invisalign" },
+        { title: "Invisalign®" },
         { title: "Dental Implants", href: "/services/metal-free-ceramic-implants" },
   
-        { title: "Dental Emergencies" }
+        
         
       ]
     },
@@ -123,7 +123,7 @@ export function Navigation() {
               >
                 <div className="bg-white rounded-lg shadow-lg py-2">
                   <a href="/team" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Meet our Dentist</a>
-                  <a href="/first-visit" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">First Visit</a>
+                  <a href="/first-visit" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">The First Visit</a>
                   <a href="/technology" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Technology</a>
                   <a href="/sustainability" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Sustainability</a>
                   <a href="/faq" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">FAQs</a>
