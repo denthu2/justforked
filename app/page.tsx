@@ -307,11 +307,11 @@ export default function Home() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>A dedicated team stays with you throughout your visit – no handoffs, no rushing.</span>
+                  <span>A dedicated team is available for you throughout your visit.</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Seamless, stress-free experience with personalized attention from start to finish.</span>
+                  <span>Comfort amenities and thoughtfully designed spaces ensure a personalized experience.</span>
                 </li>
                 
               </ul>
@@ -326,11 +326,11 @@ export default function Home() {
                 
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Advanced technology for the most precise outcomes. </span>
+                  <span>AI-assisted advanced technology for more precise & predictable outcomes. </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Evidence-based protocols. Your treatment is designed around your unique health profile & goals.</span>
+                  <span>Evidence-based protocols. Your treatment is designed around your unique health & goals.</span>
                 </li>
               </ul>
             </Card>
@@ -343,11 +343,11 @@ export default function Home() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Effortless digital integration – seamless scheduling, digital forms, and patient portals.</span>
+                  <span>Digital integration – easy scheduling, digital forms, and communication.</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>AI-assisted diagnostics – precision-driven care with smart technology.</span>
+                  <span>3D technology – efficient same-day solutions on qualified treatments.</span>
                 </li>
                 
               </ul>
@@ -361,7 +361,7 @@ export default function Home() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Safter, smarter treatment with biocompatible, non-toxic materials.</span>
+                  <span>Safer, smarter treatment with biocompatible, non-toxic materials.</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
@@ -381,7 +381,7 @@ export default function Home() {
                 
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Our focus is on prevention and optimization. Sustainable solutions & wellness-driven care for your vitality.</span>
+                  <span>Sustainable solutions & wellness-driven care for your vitality.</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
@@ -399,11 +399,11 @@ export default function Home() {
                 
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Ongoing support  & transparent guidance on treatment options – no confusing medical jargon.</span>
+                  <span>Ongoing support  & guidance on treatment options – no confusing medical jargon.</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Wellness workshops & patient education events – so you can take charge of your health.</span>
+                  <span>Wellness workshops & events – to elevate your wellness toolbox.</span>
                 </li>
               </ul>
             </Card>
@@ -477,11 +477,11 @@ export default function Home() {
                       </li>
                       <li className="flex items-center text-gray-600">
                         <Check className="h-5 w-5 text-primary mr-2" />
-                        Annual comprehensive exam
+                        1 Comprehensive exam & wellness evaluation
                       </li>
                       <li className="flex items-center text-gray-600">
                         <Check className="h-5 w-5 text-primary mr-2" />
-                        15% off additional treatments
+                        10% off most basic treatments
                       </li>
                       <li className="flex items-center text-gray-600">
                         <Check className="h-5 w-5 text-primary mr-2" />

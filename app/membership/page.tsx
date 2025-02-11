@@ -192,7 +192,7 @@ export default function MembershipPage() {
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span className="text-gray-600">Member pricing on select procedures</span>
+                  <span className="text-gray-600">Wellness workshops access</span>
                 </li>
               </ul>
 
