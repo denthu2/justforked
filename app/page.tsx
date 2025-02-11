@@ -123,7 +123,7 @@ export default function Home() {
             <Card className="card-outline overflow-hidden group">
   <div className="relative h-48">
     <img
-      src="/images/happy/elegant-luxury-smile-rise-dental.jpg"  // Change this to the path of your image
+      src="/images/dental/molar-zirconia-crown-rise-dental.jpg"  // Change this to the path of your image
       alt="Dental Treatments"
       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
     />
@@ -149,7 +149,7 @@ export default function Home() {
             <Card className="card-outline overflow-hidden group">
               <div className="relative h-48">
               <img
-      src="/images/textures/minimalist-botanical-composition-rise-dental.jpeg"  // Change this to the path of your image
+      src="/images/happy/woman-happy-hair-rise-dental.jpg"  // Change this to the path of your image
       alt="Specialty Treatments"
       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
     />
