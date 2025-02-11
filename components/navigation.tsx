@@ -17,42 +17,29 @@ export function Navigation() {
 
   const serviceCategories = {
     preventive: {
-      title: "Preventive & Diagnostic Care",
+      title: "Preventive Care",
       items: [
-        { title: "Digital Wellness Scans", href: "/services/digital-wellness-scans" },
-        { title: "Saliva Testing", href: "/services/saliva-testing" },
-        { title: "Minimally Invasive Cleanings", href: "/services/minimally-invasive-cleanings" }
+        { title: "Low Dose X-Rays", href: "/services/digital-wellness-scans" },
+        
+        { title: "Gentle Cleanings", href: "/services/minimally-invasive-cleanings" }
       ]
     },
-    restorative: {
-      title: "Restorative & Functional",
+    dental: {
+      title: "Dental Treatment",
       items: [
         { title: "Biomimetic Restorations", href: "/services/biomimetic-restorations" },
         { title: "Metal-Free Ceramic Implants", href: "/services/metal-free-ceramic-implants" },
         { title: "3D-Printed Restorations", href: "/services/3d-printed-restorations" }
       ]
     },
-    biological: {
-      title: "Biological & Holistic",
+    specialty: {
+      title: "Specialty Treatment",
       items: [
         { title: "Safe Metal Removal", href: "/services/safe-metal-removal" },
         { title: "Ozone Therapy", href: "/services/ozone-therapy" },
         { title: "Laser Therapy", href: "/services/laser-therapy" },
         { title: "Biological Surgery", href: "/services/biological-surgery" }
-      ]
-    },
-    aesthetic: {
-      title: "Aesthetic & Regenerative",
-      items: [
-        { title: "Smile Rejuvenation", href: "/services/smile-rejuvenation" },
-        { title: "3D Smile Design", href: "/services/3d-smile-design" }
-      ]
-    },
-    wellness: {
-      title: "Wellness & Prevention",
-      items: [
-        { title: "Sleep & Airway Optimization", href: "/services/sleep-airway" },
-        { title: "Longevity-Based Wellness", href: "/services/longevity-wellness" }
+        
       ]
     }
   };
@@ -106,7 +93,7 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {/* The Experience Dropdown */}
+            {/* About Us Dropdown */}
             <div 
               className="relative group"
               onMouseEnter={() => handleMouseEnter('experience')}
@@ -118,7 +105,7 @@ export function Navigation() {
                   isHomePage && !isScrolled ? "text-white hover:text-white/80" : "text-foreground"
                 )}
               >
-                The Experience
+                About Us
                 <ChevronDown className="h-4 w-4" />
               </button>
               <div 
@@ -130,7 +117,7 @@ export function Navigation() {
                 <div className="bg-white rounded-lg shadow-lg py-2">
                   <a href="/team" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Meet our Dentist</a>
                   <a href="/first-visit" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">First Visit</a>
-                  <a href="/technology" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Technology & Innovation</a>
+                  <a href="/technology" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Technology</a>
                   <a href="/sustainability" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Sustainability</a>
                   <a href="/faq" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">FAQs</a>
                 </div>
@@ -149,7 +136,7 @@ export function Navigation() {
                   isHomePage && !isScrolled ? "text-white hover:text-white/80" : "text-foreground"
                 )}
               >
-                Services
+                Our Services
                 <ChevronDown className="h-4 w-4" />
               </button>
               <div 
@@ -245,13 +232,13 @@ export function Navigation() {
         {isMobileMenuOpen && (
           <div className="md:hidden py-4 border-t border-gray-200">
             <div className="flex flex-col space-y-4">
-              {/* The Experience Section */}
+              {/* About Us Section */}
               <div>
                 <button
                   onClick={() => toggleMobileSection('experience')}
                   className="flex items-center justify-between w-full py-2 text-foreground hover:text-primary"
                 >
-                  <span className="font-medium">The Experience</span>
+                  <span className="font-medium">About Us</span>
                   {expandedMobileSection === 'experience' ? (
                     <ChevronDown className="h-5 w-5" />
                   ) : (
@@ -262,7 +249,7 @@ export function Navigation() {
                   <div className="pl-4 mt-2 space-y-2">
                     <a href="/team" className="block py-2 text-foreground/70 hover:text-primary">Meet our Dentist</a>
                     <a href="/first-visit" className="block py-2 text-foreground/70 hover:text-primary">First Visit</a>
-                    <a href="/technology" className="block py-2 text-foreground/70 hover:text-primary">Technology & Innovation</a>
+                    <a href="/technology" className="block py-2 text-foreground/70 hover:text-primary">Technology</a>
                     <a href="/sustainability" className="block py-2 text-foreground/70 hover:text-primary">Sustainability</a>
                     <a href="/faq" className="block py-2 text-foreground/70 hover:text-primary">FAQs</a>
                   </div>
@@ -275,7 +262,7 @@ export function Navigation() {
                   onClick={() => toggleMobileSection('services')}
                   className="flex items-center justify-between w-full py-2 text-foreground hover:text-primary"
                 >
-                  <span className="font-medium">Services</span>
+                  <span className="font-medium">Our Services</span>
                   {expandedMobileSection === 'services' ? (
                     <ChevronDown className="h-5 w-5" />
                   ) : (
