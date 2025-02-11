@@ -108,10 +108,9 @@ export default function Home() {
                 <h3 className="text-xl font-semibold mb-2">Preventive Care</h3>
                 <ul className="space-y-2 mb-4 text-gray-600">
                   <li>• Gentle Cleanings</li>
-                  <li>• Low-Dose X-Rays & Imaging</li>
+                  <li>• Low-dose X-rays</li>
                   <li>• Fluoride-Free Treatments</li>
-                  <li>• Desensitizing Treatments</li>
-                  <li>• BPA-Free Bite Guards</li>
+                  <li>• Custom Bite Guards</li>
                   
                 </ul>
                 <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
@@ -133,9 +132,9 @@ export default function Home() {
   <div className="p-6">
     <h3 className="text-xl font-semibold mb-2">Dental Treatments</h3>
     <ul className="space-y-2 mb-4 text-gray-600">
-      <li>• Fillings, Crowns & Bridges</li>
-      <li>• Invisalign</li>
+      <li>• Fillings & Crowns</li>
       <li>• Cosmetic Dentistry</li>
+      <li>• Invisalign</li>
       <li>• Dental Implants</li>
       <li>• Dental Emergencies</li>
     </ul>
@@ -162,9 +161,8 @@ export default function Home() {
                   <li>• Safe Mercury Removal (SMART)</li>
                   <li>• Laser Therapy</li>
                   <li>• Ozone Therapy</li>
-                  <li>• Biological Oral Surgery</li>
-                  <li>• Gut Health Counseling</li>
-                </ul>
+                  <li>• Biological Surgery</li>
+                 </ul>
                 <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
                   Learn More <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>

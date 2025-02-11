@@ -21,7 +21,8 @@ export function Navigation() {
       items: [
         { title: "Gentle Cleanings", href: "/services/minimally-invasive-cleanings" },
         { title: "Low-dose X-rays" },
-        { title: "Fluoride-Free Treatments" }
+        { title: "Fluoride-Free Treatments" },
+        { title: "Custom Bite Guards" }
        
         
         
@@ -34,6 +35,7 @@ export function Navigation() {
         { title: "Cosmetic Dentistry", href: "/services/smile-rejuvenation" },
         { title: "Invisalign®" },
         { title: "Dental Implants", href: "/services/metal-free-ceramic-implants" },
+        { title: "Dental Emergencies", href: "/services/emergencies" }
   
         
         
