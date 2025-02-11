@@ -313,10 +313,7 @@ export default function Home() {
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
                   <span>Seamless, stress-free experience with personalized attention from start to finish.</span>
                 </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Designed to feel familiar and intentional, so you always know what to expect.</span>
-                </li>
+                
               </ul>
             </Card>
 
@@ -326,17 +323,14 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-4">Precision-Driven Treatment</h3>
               <ul className="space-y-3 text-gray-600">
+                
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>No cookie-cutter dentistry – your treatment is designed around your unique health profile & goals.</span>
+                  <span>Advanced technology for the most precise outcomes. </span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Advanced diagnostics & technology for the most precise, predictable outcomes.</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Evidence-based protocols – integrating the best of modern and wellness-driven dentistry.</span>
+                  <span>Evidence-based protocols. Your treatment is designed around your unique health profile & goals.</span>
                 </li>
               </ul>
             </Card>
@@ -355,10 +349,7 @@ export default function Home() {
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
                   <span>AI-assisted diagnostics – precision-driven care with smart technology.</span>
                 </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Constant innovation – always evolving to enhance your experience.</span>
-                </li>
+                
               </ul>
             </Card>
 
@@ -370,18 +361,14 @@ export default function Home() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Biocompatible, non-toxic materials – protecting your health and the planet.</span>
+                  <span>Safter, smarter treatment with biocompatible, non-toxic materials.</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
                   <span>Eco-conscious design & responsible techniques for a lower environmental impact.
 </span>
                 </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Cutting-edge, future-forward care – always innovating for safer, smarter treatment.
-</span>
-                </li>
+                
               </ul>
             </Card>
             
@@ -391,17 +378,14 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-4">Designed for Longevity</h3>
               <ul className="space-y-3 text-gray-600">
+                
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>More than just fixing issues—our focus is prevention & optimization.</span>
+                  <span>Our focus is on prevention and optimization. Sustainable solutions & wellness-driven care for your vitality.</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Sustainable health habits & wellness-driven care for lasting vitality.</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Minimally invasive, high-impact solutions designed to preserve your smile for life.</span>
+                  <span>Minimally invasive, high-impact solutions designed to preserve your smile for years to come.</span>
                 </li>
               </ul>
             </Card>
@@ -412,17 +396,14 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold mb-4">Education & Empowerment</h3>
               <ul className="space-y-3 text-gray-600">
+                
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+                  <span>Ongoing support  & transparent guidance on treatment options – no confusing medical jargon.</span>
+                </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
                   <span>Wellness workshops & patient education events – so you can take charge of your health.</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Transparent guidance on treatment options – no confusing medical jargon.</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Ongoing support beyond the chair – because true wellness happens every day.</span>
                 </li>
               </ul>
             </Card>
