@@ -19,25 +19,32 @@ export function Navigation() {
     preventive: {
       title: "Preventive Care",
       items: [
-        { title: "Low Dose X-Rays", href: "/services/digital-wellness-scans" },
+        { title: "Gentle Cleanings", href: "/services/minimally-invasive-cleanings" },
+        { title: "Low-dose X-rays" },
+        { title: "Fluoride-Free Treatments" },
+        { title: "BPA-Free Mouth Guards" }
         
-        { title: "Gentle Cleanings", href: "/services/minimally-invasive-cleanings" }
+        
       ]
     },
     dental: {
       title: "Dental Treatment",
       items: [
-        { title: "Biomimetic Restorations", href: "/services/biomimetic-restorations" },
-        { title: "Metal-Free Ceramic Implants", href: "/services/metal-free-ceramic-implants" },
-        { title: "3D-Printed Restorations", href: "/services/3d-printed-restorations" }
+        { title: "Fillings & Crowns", href: "/services/biomimetic-restorations" },
+        { title: "Cosmetic Dentistry", href: "/services/smile-rejuvenation" },
+        { title: "Invisalign" },
+        { title: "Dental Implants", href: "/services/metal-free-ceramic-implants" },
+  
+        { title: "Dental Emergencies" }
+        
       ]
     },
     specialty: {
       title: "Specialty Treatment",
       items: [
-        { title: "Safe Metal Removal", href: "/services/safe-metal-removal" },
-        { title: "Ozone Therapy", href: "/services/ozone-therapy" },
+        { title: "Safe Mercury Removal (SMART)", href: "/services/safe-metal-removal" },
         { title: "Laser Therapy", href: "/services/laser-therapy" },
+        { title: "Ozone Therapy", href: "/services/ozone-therapy" },
         { title: "Biological Surgery", href: "/services/biological-surgery" }
         
       ]
