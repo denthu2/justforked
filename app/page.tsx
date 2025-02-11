@@ -105,11 +105,14 @@ export default function Home() {
                 <Microscope className="absolute top-4 left-4 h-8 w-8 text-white" />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Preventive & Diagnostic Care</h3>
+                <h3 className="text-xl font-semibold mb-2">Preventive Care</h3>
                 <ul className="space-y-2 mb-4 text-gray-600">
-                  <li>• Saliva Testing</li>
-                  <li>• Digital Scans</li>
-                  <li>• Minimally Invasive Cleanings</li>
+                  <li>• Gentle Cleanings</li>
+                  <li>• Low-Dose X-Rays & Imaging</li>
+                  <li>• Fluoride-Free Treatments</li>
+                  <li>• Desensitizing Treatments</li>
+                  <li>• BPA-Free Bite Guards</li>
+                  
                 </ul>
                 <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
                 Learn More <ArrowRight className="ml-2 h-4 w-4" />
@@ -121,18 +124,20 @@ export default function Home() {
   <div className="relative h-48">
     <img
       src="/images/happy/elegant-luxury-smile-rise-dental.jpg"  // Change this to the path of your image
-      alt="Restorative Care"
+      alt="Dental Treatments"
       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
     />
     <div className="absolute inset-0 bg-black/20"></div>
     <Tooth className="absolute top-4 left-4 h-8 w-8 text-white" />
   </div>
   <div className="p-6">
-    <h3 className="text-xl font-semibold mb-2">Restorative & Functional Dentistry</h3>
+    <h3 className="text-xl font-semibold mb-2">Dental Treatments</h3>
     <ul className="space-y-2 mb-4 text-gray-600">
-      <li>• Biomimetic Restorations</li>
-      <li>• Metal-Free Implants</li>
-      <li>• 3D-Printed Restorations</li>
+      <li>• Fillings, Crowns & Bridges</li>
+      <li>• Invisalign</li>
+      <li>• Cosmetic Dentistry</li>
+      <li>• Dental Implants</li>
+      <li>• Dental Emergencies</li>
     </ul>
     <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
       Learn More <ArrowRight className="ml-2 h-4 w-4" />
@@ -145,18 +150,20 @@ export default function Home() {
               <div className="relative h-48">
               <img
       src="/images/textures/minimalist-botanical-composition-rise-dental.jpeg"  // Change this to the path of your image
-      alt="Holistic & Cosmetic Dentistry"
+      alt="Specialty Treatments"
       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
     />
                 <div className="absolute inset-0 bg-black/20"></div>
                 <Leaf className="absolute top-4 left-4 h-8 w-8 text-white" />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Holistic & Aesthetic Dentistry</h3>
+                <h3 className="text-xl font-semibold mb-2">Speciality Treatments</h3>
                 <ul className="space-y-2 mb-4 text-gray-600">
-                  <li>• Subtle Smile Enhancements</li>
-                  <li>• TMJ & Sleep Optimization</li>
-                  <li>• Longevity-Focused Care</li>
+                  <li>• Safe Mercury Removal (SMART)</li>
+                  <li>• Laser Therapy</li>
+                  <li>• Ozone Therapy</li>
+                  <li>• Biological Oral Surgery</li>
+                  <li>• Gut Health Counseling</li>
                 </ul>
                 <Button variant="outline" className="btn-outline-square w-full group-hover:bg-primary group-hover:text-white">
                   Learn More <ArrowRight className="ml-2 h-4 w-4" />
