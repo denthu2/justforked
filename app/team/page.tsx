@@ -49,13 +49,13 @@ export default function TeamPage() {
                 <h3 className="text-2xl font-bold mb-2">Dr. Thu Trinh, DDS</h3>
                 <p className="text-gray-600 mb-4">Lead Dentist & Wellness Director</p>
                 <p className="text-gray-700 mb-4">
-    Rise Dental's founder, Dr. Thu Trinh, is renowned for her commitment to holistic and biomimetic dentistry. Her approach integrates a deep understanding of how oral health impacts overall wellness.
+    
 </p>
 <p className="text-gray-700 mb-4">
-    Rise Dental, envisioned and crafted by Dr. Trinh, offers a unique environment where patients are treated like esteemed guests in a charmingly inviting setting. As you walk in, you are greeted by the soothing ambiance of a thoughtfully designed interior that combines the comforts of a cozy home with the elegance of a boutique wellness center. 
+    Dr.Trinh has been serving the community of Austin. In the Live Music Capital of the World, she witnessed that anything is achievable in a supportive environment. This is her founding principle for Rise Dental. 
 </p>
 <p className="text-gray-700 mb-4">
-    From your first visit, Rise Dental offers a bespoke experience where comfort and personal attention are paramount. Dr. Trinh’s meticulous approach ensures that each aspect of your care reflects a commitment to your health, comfort, and wellness.
+    Dr. Trinh designed Rise Dental to feel intentional yet elevated. Every aspect of your visit reflects our commitment to your comfort, well-being, and progress. Because <i>Wellness Starts With A Smile™.</i>
 </p>
 
 
