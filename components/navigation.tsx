@@ -44,7 +44,7 @@ export function Navigation() {
     specialty: {
       title: "Specialty Treatment",
       items: [
-        { title: "Safe Mercury Removal (SMART)", href: "/services/safe-metal-removal" },
+        { title: "Safe Mercury Removal (SMART)", href: "/services/safe-mercury-removal" },
         { title: "Laser Therapy", href: "/services/laser-therapy" },
         { title: "Ozone Therapy", href: "/services/ozone-therapy" },
         { title: "Biological Surgery", href: "/services/biological-surgery" }

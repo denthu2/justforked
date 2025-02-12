@@ -4,7 +4,7 @@ import { ArrowRight, Shield, Brain, Heart, Check, MessageSquare, Leaf, FlaskConi
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 
-export default function SafeMetalRemovalPage() {
+export default function SafeMercuryRemovalPage() {
   return (
     <main className="min-h-screen pt-20">
       {/* Hero Section */}
@@ -12,7 +12,7 @@ export default function SafeMetalRemovalPage() {
         <div className="absolute inset-0 z-0">
         <img
             src="/images/textures/malta-seaside-rocky-cliffs-rise-dental.jpg" // Update this path to the path of your new image
-            alt="Safe metal removal at Rise Dental"
+            alt="Safe mercury removal at Rise Dental"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/40 mix-blend-multiply"></div>
@@ -20,7 +20,7 @@ export default function SafeMetalRemovalPage() {
         <div className="container mx-auto relative z-10 px-4">
           <div className="max-w-3xl text-white">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">
-              Safe Metal Removal
+              Safe Mercury Removal
               <span className="block text-2xl md:text-3xl mt-4 font-normal">
                 SMART-certified protocols for safe mercury and metal restoration removal.
               </span>
@@ -37,7 +37,7 @@ export default function SafeMetalRemovalPage() {
         <div className="absolute inset-0 bg-[url('/images/origami.jpg')] bg-fixed bg-cover bg-center opacity-5"></div>
         <div className="container mx-auto px-4 relative">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-6">Benefits of Safe Metal Removal</h2>
+            <h2 className="text-4xl font-bold mb-6">Benefits of Safe Mercury Removal</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Experience the safest approach to metal and mercury filling removal with comprehensive protection protocols.
             </p>
@@ -231,7 +231,7 @@ export default function SafeMetalRemovalPage() {
                     <ul className="space-y-3 text-gray-600">
                       <li className="flex items-start">
                         <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                        <span>Metal-free materials</span>
+                        <span>Mercury-free materials</span>
                       </li>
                       <li className="flex items-start">
                         <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
@@ -256,7 +256,7 @@ export default function SafeMetalRemovalPage() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Related Services</h2>
             <p className="text-lg text-gray-600">
-              Explore other services that complement safe metal removal.
+              Explore other services that complement safe mercury removal.
             </p>
           </div>
 
@@ -304,7 +304,7 @@ export default function SafeMetalRemovalPage() {
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-6">Ready for Safe Metal Removal?</h2>
+            <h2 className="text-4xl font-bold mb-6">Ready for Safe Mercury Removal?</h2>
             <p className="text-lg text-gray-600 mb-8">
               Take the first step towards metal-free, biocompatible dentistry. Schedule your consultation today.
             </p>

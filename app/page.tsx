@@ -134,7 +134,7 @@ export default function Home() {
     <ul className="space-y-2 mb-4 text-gray-600">
       <li>• Fillings & Crowns</li>
       <li>• Cosmetic Dentistry</li>
-      <li>• Invisalign</li>
+      <li>• Invisalign®</li>
       <li>• Dental Implants</li>
       
     </ul>
