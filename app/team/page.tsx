@@ -52,10 +52,10 @@ export default function TeamPage() {
     
 </p>
 <p className="text-gray-700 mb-4">
-    Dr.Trinh has been serving the community of Austin. In the Live Music Capital of the World, she witnessed that anything is achievable in a supportive environment. This is her founding principle for Rise Dental. 
+    Dr.Trinh has been serving the city of Austin for over a decade. In the Live Music Capital of the World, she witnessed that anything is achievable in a supportive environment. This is her founding principle for Rise Dental. 
 </p>
 <p className="text-gray-700 mb-4">
-    Dr. Trinh designed Rise Dental to feel intentional yet elevated. Every aspect of your visit reflects our commitment to your comfort, well-being, and progress. Because <i>Wellness Starts With A Smile™.</i>
+    Dr. Trinh created Rise Dental to provide a intentional space for wellness. From the choice of custom crafted dental chairs with unique cushioning that reduces pressure points, to the colors of the walls, Rise is a place that feels thoughtful and elevated. Every aspect of your visit reflects our commitment to your comfort, well-being, and progress. Because we understand the work it takes to work on yourself, and we can't wait to be part of your journey.
 </p>
 
 
