@@ -48,9 +48,9 @@ export default function Home() {
         <div className="absolute inset-0 bg-[url('/images/origami.jpg')] bg-fixed bg-cover bg-center opacity-5"></div>
         <div className="container mx-auto px-4 relative">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Rise Dental: Where Wellness Meets Simplicity</h2>
+            <h2 className="text-4xl font-bold mb-4">Rise Dental: Where Wellness Meets Practicality</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            At Rise, dental wellness isn’t an abstract ideal—it’s a sustainable way of living. We help create experiences that help you feel better and live better, in a space that’s both elevated and effortlessly inviting.
+            At Rise Dental, good health isn’t an abstract ideal—it’s a natural way of living. We are here to give you the best of dentistry—because wellness starts with a smile.
 
 
             </p>
@@ -83,13 +83,139 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      
+
+      {/* The Rise Difference Section */}
+      <section className="py-24 bg-white relative overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/ginkowallpaper.jpg')] bg-fixed bg-cover bg-center opacity-5"></div>
+        <div className="container mx-auto px-4 relative">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-bold mb-4">The Rise Difference</h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+            We help create experiences that help you feel better and live better, in a space that’s both elevated and effortlessly inviting. 
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <Card className="card-outline-contrast p-8 relative group hover:shadow-lg transition-shadow">
+              <div className="h-12 w-12 bg-[#EBDAC6] flex items-center justify-center mb-6">
+                <Heart className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Concierge-Style Care</h3>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+                  <span>A dedicated team is available for you throughout your visit.</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+                  <span>Comfort amenities and thoughtfully designed spaces ensure a personalized experience.</span>
+                </li>
+                
+              </ul>
+            </Card>
+
+            <Card className="card-outline-contrast p-8 relative group hover:shadow-lg transition-shadow">
+              <div className="h-12 w-12 bg-[#EBDAC6] flex items-center justify-center mb-6">
+                <Target className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Precision-Driven Treatment</h3>
+              <ul className="space-y-3 text-gray-600">
+                
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+                  <span>AI-assisted advanced technology for more precise & predictable outcomes. </span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+                  <span>Evidence-based protocols. Your treatment is designed around your unique health & goals.</span>
+                </li>
+              </ul>
+            </Card>
+
+            <Card className="card-outline-contrast p-8 relative group hover:shadow-lg transition-shadow">
+              <div className="h-12 w-12 bg-[#EBDAC6] flex items-center justify-center mb-6">
+                <Sparkles className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Technology-Enhanced Experience</h3>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+                  <span>Digital integration – easy scheduling, digital forms, and communication.</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+                  <span>3D technology – efficient same-day solutions on qualified treatments.</span>
+                </li>
+                
+              </ul>
+            </Card>
+
+<Card className="card-outline-contrast p-8 relative group hover:shadow-lg transition-shadow">
+              <div className="h-12 w-12 bg-[#EBDAC6] flex items-center justify-center mb-6">
+                <Recycle className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Sustainable, Science-Backed Approach</h3>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+                  <span>Safer, smarter treatment with biocompatible, non-toxic materials.</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+                  <span>Eco-conscious design & responsible techniques for a lower environmental impact.
+</span>
+                </li>
+                
+              </ul>
+            </Card>
+            
+            <Card className="card-outline-contrast p-8 relative group hover:shadow-lg transition-shadow">
+              <div className="h-12 w-12 bg-[#EBDAC6] flex items-center justify-center mb-6">
+                <Hourglass className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Designed for Longevity</h3>
+              <ul className="space-y-3 text-gray-600">
+                
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+                  <span>Sustainable solutions & wellness-driven care for your vitality.</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+                  <span>Minimally invasive, high-impact solutions designed to preserve your smile for years to come.</span>
+                </li>
+              </ul>
+            </Card>
+
+            <Card className="card-outline-contrast p-8 relative group hover:shadow-lg transition-shadow">
+              <div className="h-12 w-12 bg-[#EBDAC6] flex items-center justify-center mb-6">
+                <Brain className="h-6 w-6 text-primary" />
+              </div>
+              <h3 className="text-xl font-bold mb-4">Education & Empowerment</h3>
+              <ul className="space-y-3 text-gray-600">
+                
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+                  <span>Ongoing support  & guidance on treatment options – no confusing medical jargon.</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
+                  <span>Wellness workshops & events – to elevate your wellness toolbox.</span>
+                </li>
+              </ul>
+            </Card>
+          </div>
+        </div>
+      </section>
 {/* Services Section */}
 <section className="py-20 bg-[#F8F7F5]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Modern Dentistry, Designed for Life</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Our dental services focuses on wellness solutions that last.
+              Our dental services focus on wellness solutions that last.
             </p>
           </div>
 
@@ -285,132 +411,6 @@ export default function Home() {
         </div>
       </section>
 *\}
-      
-
-      {/* The Rise Difference Section */}
-      <section className="py-24 bg-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/ginkowallpaper.jpg')] bg-fixed bg-cover bg-center opacity-5"></div>
-        <div className="container mx-auto px-4 relative">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">The Rise Difference</h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            At Rise, modern science meets practical wellness. We make good health achievable and sustainable, in a thoughtful space designed just for you.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            <Card className="card-outline-contrast p-8 relative group hover:shadow-lg transition-shadow">
-              <div className="h-12 w-12 bg-[#EBDAC6] flex items-center justify-center mb-6">
-                <Heart className="h-6 w-6 text-primary" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Concierge-Style Care</h3>
-              <ul className="space-y-3 text-gray-600">
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>A dedicated team is available for you throughout your visit.</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Comfort amenities and thoughtfully designed spaces ensure a personalized experience.</span>
-                </li>
-                
-              </ul>
-            </Card>
-
-            <Card className="card-outline-contrast p-8 relative group hover:shadow-lg transition-shadow">
-              <div className="h-12 w-12 bg-[#EBDAC6] flex items-center justify-center mb-6">
-                <Target className="h-6 w-6 text-primary" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Precision-Driven Treatment</h3>
-              <ul className="space-y-3 text-gray-600">
-                
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>AI-assisted advanced technology for more precise & predictable outcomes. </span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Evidence-based protocols. Your treatment is designed around your unique health & goals.</span>
-                </li>
-              </ul>
-            </Card>
-
-            <Card className="card-outline-contrast p-8 relative group hover:shadow-lg transition-shadow">
-              <div className="h-12 w-12 bg-[#EBDAC6] flex items-center justify-center mb-6">
-                <Sparkles className="h-6 w-6 text-primary" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Technology-Enhanced Experience</h3>
-              <ul className="space-y-3 text-gray-600">
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Digital integration – easy scheduling, digital forms, and communication.</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>3D technology – efficient same-day solutions on qualified treatments.</span>
-                </li>
-                
-              </ul>
-            </Card>
-
-<Card className="card-outline-contrast p-8 relative group hover:shadow-lg transition-shadow">
-              <div className="h-12 w-12 bg-[#EBDAC6] flex items-center justify-center mb-6">
-                <Recycle className="h-6 w-6 text-primary" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Sustainable, Science-Backed Approach</h3>
-              <ul className="space-y-3 text-gray-600">
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Safer, smarter treatment with biocompatible, non-toxic materials.</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Eco-conscious design & responsible techniques for a lower environmental impact.
-</span>
-                </li>
-                
-              </ul>
-            </Card>
-            
-            <Card className="card-outline-contrast p-8 relative group hover:shadow-lg transition-shadow">
-              <div className="h-12 w-12 bg-[#EBDAC6] flex items-center justify-center mb-6">
-                <Hourglass className="h-6 w-6 text-primary" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Designed for Longevity</h3>
-              <ul className="space-y-3 text-gray-600">
-                
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Sustainable solutions & wellness-driven care for your vitality.</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Minimally invasive, high-impact solutions designed to preserve your smile for years to come.</span>
-                </li>
-              </ul>
-            </Card>
-
-            <Card className="card-outline-contrast p-8 relative group hover:shadow-lg transition-shadow">
-              <div className="h-12 w-12 bg-[#EBDAC6] flex items-center justify-center mb-6">
-                <Brain className="h-6 w-6 text-primary" />
-              </div>
-              <h3 className="text-xl font-bold mb-4">Education & Empowerment</h3>
-              <ul className="space-y-3 text-gray-600">
-                
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Ongoing support  & guidance on treatment options – no confusing medical jargon.</span>
-                </li>
-                <li className="flex items-start">
-                  <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Wellness workshops & events – to elevate your wellness toolbox.</span>
-                </li>
-              </ul>
-            </Card>
-          </div>
-        </div>
-      </section>
-
 
       {/* Membership Section */}
       <section className="py-24 membership-gradient relative overflow-hidden">
