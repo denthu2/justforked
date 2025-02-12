@@ -49,7 +49,7 @@ export default function TechnologyPage() {
               <ul className="space-y-3 text-gray-600">
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
-                  <span>Ultra-low radiation exposure</span>
+                  <span>Low radiation exposure</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />

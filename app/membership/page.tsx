@@ -358,7 +358,7 @@ export default function MembershipPage() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-24 bg-[#F8F7F5]">
+      {/*<section className="py-24 bg-[#F8F7F5]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Why Our Patients Love Their Membership</h2>
@@ -447,7 +447,7 @@ export default function MembershipPage() {
             </Card>
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* Final CTA */}
       <section className="py-24 bg-white">

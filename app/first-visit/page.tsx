@@ -80,7 +80,7 @@ export default function FirstVisitPage() {
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Comprehensive Evaluation</h2>
             <p className="text-lg text-gray-600">
-              A deeper look into your health, using advanced diagnostics and Kois Methodology.
+              A deeper look into your health, using advanced diagnostics and evidence-based dentistry.
             </p>
           </div>
 
@@ -134,7 +134,7 @@ export default function FirstVisitPage() {
       <h3 className="text-2xl font-bold mb-4">Risk Assessment for Dental Health</h3>
       <div className="grid md:grid-cols-2 gap-6">
         <div>
-          <h4 className="font-bold mb-2">Biomechanical Risk</h4>
+          <h4 className="font-bold mb-2">Tooth-Related Risks (Biomechanical)</h4>
           <ul className="space-y-3">
             <li className="flex items-start">
               <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
@@ -147,7 +147,7 @@ export default function FirstVisitPage() {
           </ul>
         </div>
         <div>
-          <h4 className="font-bold mb-2">Periodontal Risk</h4>
+          <h4 className="font-bold mb-2">Gum and Bone Risk (Periodontal)</h4>
           <ul className="space-y-3">
             <li className="flex items-start">
               <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5 mr-2" />
@@ -245,7 +245,7 @@ export default function FirstVisitPage() {
         <div className="container mx-auto px-4 relative">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Personalized Treatment Planning</h2>
-            <p className="text-lg text-gray-600">Your health roadmap—built just for you.</p>
+            <p className="text-lg text-gray-600">We help create a personal plan that makes sense for your needs, at your own pace.</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
@@ -319,7 +319,7 @@ export default function FirstVisitPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center mb-16">
             <h2 className="text-4xl font-bold mb-6">Your Next Steps</h2>
-            <p className="text-lg text-gray-600">Your journey to optimal health starts today.</p>
+            <p className="text-lg text-gray-600">After your first visit, our recommendations are:</p>
           </div>
 
           <div className="max-w-3xl mx-auto">
