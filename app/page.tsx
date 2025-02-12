@@ -50,7 +50,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Rise Dental: Where Wellness Meets Simplicity</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            At Rise Dental, wellness isn’t an abstract ideal—it’s a practical, intentional approach to lifelong health. We bridge the gap between traditional dentistry and modern care, making it easy to take meaningful steps toward better health.
+            At Rise, dental wellness isn’t an abstract ideal—it’s a sustainable way of living. We help create experiences that help you feel better and live better, in a space that’s both elevated and effortlessly inviting.
 
 
             </p>
@@ -89,7 +89,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Modern Dentistry, Designed for Life</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Experience comprehensive dental care services that focuses on your long-term health and wellness.
+              Our dental services focuses on wellness solutions that last.
             </p>
           </div>
 
@@ -294,7 +294,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">The Rise Difference</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Experience a new standard in dental care where modern science meets practical wellness solutions. We make optimal health achievable through clear guidance, innovative care, and sustainable practices.
+            At Rise, modern science meets practical wellness. We make good health achievable and sustainable, in a thoughtful space designed just for you.
             </p>
           </div>
 
