@@ -108,9 +108,9 @@ And when Dr. Trinh isn’t in the office? She's probably swimming with her dogs,
       <section className="py-20 bg-[#F8F7F5]">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-6">Ready to Experience the Difference?</h2>
+            <h2 className="text-4xl font-bold mb-6">Ready to Meet Dr.Trinh?</h2>
             <p className="text-lg text-gray-600 mb-8">
-              Schedule your visit with our experienced team of doctors today.
+              Schedule your visit and get to know your new dental wellness dentist today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button className="bg-primary text-white hover:bg-primary/90" asChild>
