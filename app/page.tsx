@@ -48,7 +48,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[url('/images/origami.jpg')] bg-fixed bg-cover bg-center opacity-5"></div>
         <div className="container mx-auto px-4 relative">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Rise Dental: The Power of a Smile</h2>
+            <h2 className="text-4xl font-bold mb-4">Rise Dental: Where Wellness Meets Practicality</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             At Rise Dental, we believe good health isn’t an abstract ideal—it’s a natural way of living. Our mission is to cultivate vitality by connecting oral health and overall well-being, and we do this by raising the bar for dental care—because wellness starts with a smile.
             </p>
