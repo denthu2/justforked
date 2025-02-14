@@ -50,16 +50,10 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Rise Dental: Where Wellness Meets Practicality</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            At Rise Dental, we believe good health isn’t an abstract ideal—it’s a natural way of living. Our mission is to cultivate vitality by connecting oral health and overall well-being, and we do this by raising the bar for dental care—because wellness starts with a smile.
-            </p>
+            At Rise Dental, we believe good health isn’t an abstract ideal—it’s a natural way of living. That’s why we take a practical approach to wellness, combining advanced technology, evidence-based care, and a streamlined patient experience to make optimal oral health simple and achievable. We bridge the gap between modern dentistry and whole-body wellness—because good health starts with a smile.
+              </p>
           </div>
-       
-        </div>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-        <Button className="bg-primary text-white hover:bg-primary/90" asChild>
-          <a href="/philosophy">Learn More About Us</a>
-        </Button>
-      </div>
+               </div>
 
 
       </section>
