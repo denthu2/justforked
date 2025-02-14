@@ -36,7 +36,7 @@ export default function TeamPage() {
         <div className="absolute inset-0 bg-[url('/images/origami.jpg')] bg-fixed bg-cover bg-center opacity-5"></div>
         <div className="container mx-auto px-4 relative">
           <div className="flex justify-center"> {/* Updated this line to use flex and center alignment */}
-            <Card className="p-8 flex flex-col items-center text-center max-w-md mx-auto">
+            <Card className="p-8 flex flex-col items-center text-center max-w-2xl mx-auto">
               <div className="w-[250px] h-[250px] mb-8">
                 <img
                   src="/images/dr trinh brushy creek dentist.jpg"
@@ -59,6 +59,9 @@ That belief became the foundation of Rise Dental—a space intentionally designe
 </p>
 <p className="text-gray-700 mb-4">
 And when Dr. Trinh isn’t in the office? She's probably swimming with her dogs, eating tacos, tinkering with technology, or creating imaginary worlds with her kids.
+</p>
+<p className="text-gray-700 mb-4">
+The Training That Shapes Her Approach:
 </p>
 
                 <div className="space-y-2">
