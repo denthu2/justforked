@@ -52,12 +52,14 @@ export default function TeamPage() {
     
 </p>
 <p className="text-gray-700 mb-4">
-    Dr.Trinh has been serving the city of Austin for over a decade. In the Live Music Capital of the World, she witnessed that anything is achievable in a supportive environment. This is her founding principle for Rise Dental. 
+Dr. Thu Trinh is a highly trained dentist with expertise in holistic and biomimetic dentistry, having studied under some of the most respected mentors in the field. With over a decade of experience serving the Austin community, she has seen firsthand that true wellness starts with connection—and that with the right support, people can rise to their best selves.
 </p>
 <p className="text-gray-700 mb-4">
-    Dr. Trinh created Rise Dental to provide a intentional space for wellness. From the choice of custom crafted dental chairs with unique cushioning that reduces pressure points, to the colors of the walls, Rise is a place that feels thoughtful and elevated. Every aspect of your visit reflects our commitment to your comfort, well-being, and progress. Because we understand the work it takes to work on yourself, and we can't wait to be part of your journey.
+That belief became the foundation of Rise Dental—a space intentionally designed to support both your health and your sense of well-being. From the soothing colors of the walls, to the premium tea selection in the lobby, and even the energy-efficient lighting in each room, every detail was chosen with intention to create an experience that feels both restorative and elevated.
 </p>
-
+<p className="text-gray-700 mb-4">
+And when Dr. Trinh isn’t in the office? She's probably swimming with her dogs, eating tacos, tinkering with technology, or creating imaginary worlds with her kids.
+</p>
 
                 <div className="space-y-2">
                 <div className="flex items-center justify-center text-gray-600">
@@ -70,7 +72,7 @@ export default function TeamPage() {
                   </div>
                   <div className="flex items-center justify-center text-gray-600">
                     <Check className="h-5 w-5 text-primary mr-2" />
-                    <span>Surgical Implantology (ICOI)</span>
+                    <span>Surgical Implantology Fellow (ICOI)</span>
                   </div>
                   <div className="flex items-center justify-center text-gray-600">
                     <Check className="h-5 w-5 text-primary mr-2" />
