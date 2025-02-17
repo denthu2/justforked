@@ -155,11 +155,11 @@ export default function Home() {
             </Card>
           </div>
           {/* Bottom Button Section */}
-    <div className="flex flex-col sm:flex-row gap-4 justify-center mt-16">
+    {/*<div className="flex flex-col sm:flex-row gap-4 justify-center mt-16">
       <Button className="bg-primary text-white hover:bg-primary/90" asChild>
         <a href="/waitlist">Schedule A Service</a>
       </Button>
-    </div>
+    </div>*/}
         </div>
       </section>
 
