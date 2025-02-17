@@ -27,35 +27,39 @@ export default function WaitlistPage() {
 
   const treatmentOptions = {
     preventive: {
-      label: "Preventive & Diagnostic Care",
+      label: "Preventive Care",
       details: [
-        "Routine Exam & Cleaning",
-        "Digital Scans & Saliva Testing",
-        "TMJ & Sleep Optimization"
+        "Exams",
+        "Gentle Cleanings",
+        "Low-dose X-rays"
+       
       ]
     },
     restorative: {
-      label: "Restorative & Functional Dentistry",
+      label: "Dental Treatment",
       details: [
-        "Biomimetic Fillings & Restorations",
-        "Metal-Free Crowns & Bridges",
-        "Implants & Tooth Replacement"
+        "Fillings & Crowns",
+        "Invisalign®",
+        "Dental Implants",
+        "Dental Emergencies"
       ]
     },
     holistic: {
-      label: "Holistic & Wellness-Focused Care",
+      label: "Specialty Treatment",
       details: [
-        "Ozone Therapy & Non-Toxic Dentistry",
-        "Mercury Filling Removal (SMART Protocol)",
-        "Biocompatibility Testing"
+        "Safe Mercury Removal (SMART)",
+        "Laser Therapy",
+        "Ozone Therapy",
+                "Biological Surgery"
       ]
     },
     cosmetic: {
       label: "Cosmetic Dentistry",
       details: [
-        "Whitening & Enamel Brightening",
-        "Invisalign & Ortho Consult",
-        "Subtle Smile Enhancements"
+        "Veneers",
+        "Whitening",
+        "Cosmetic Gum Surgery"
+        
       ]
     },
     consultation: {
@@ -145,7 +149,7 @@ export default function WaitlistPage() {
         <div className="max-w-2xl mx-auto text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">Join Our Priority Waitlist</h1>
           <p className="text-lg text-gray-600">
-            Be among the first to experience Austin's premier modern dental wellness experience. Complete the form below to secure your priority access.
+            Be among the first to experience Rise Dental, Austin's premier modern dental wellness center. Complete the form below to secure your place on the waitlist. Doors open July 2025.
           </p>
         </div>
 

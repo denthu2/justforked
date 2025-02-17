@@ -43,20 +43,26 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-20 bg-white relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/origami.jpg')] bg-fixed bg-cover bg-center opacity-5"></div>
-        <div className="container mx-auto px-4 relative">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Rise Dental: Where Wellness Meets Practicality</h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            At Rise Dental, we believe good health isn’t an abstract ideal—it’s a natural way of living. That’s why we take a practical approach to wellness, combining advanced technology, evidence-based care, and a streamlined patient experience to make optimal oral health simple and achievable. We bridge the gap between modern dentistry and whole-body wellness—because good health starts with a smile.
-              </p>
-          </div>
-               </div>
+     {/* Features Section */}
+<section className="py-20 bg-white relative overflow-hidden">
+  <div className="absolute inset-0 bg-[url('/images/origami.jpg')] bg-fixed bg-cover bg-center opacity-5"></div>
+  <div className="container mx-auto px-4 relative">
+    <div className="text-center mb-16">
+      <h2 className="text-4xl font-bold mb-4">Rise Dental: Where Wellness Meets Practicality</h2>
+      <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+        At Rise Dental, we believe good health isn’t an abstract ideal—it’s a natural way of living. That’s why we take a practical approach to wellness, combining advanced technology, evidence-based care, and a streamlined patient experience to make optimal oral health simple and achievable. We bridge the gap between modern dentistry and whole-body wellness—because good health starts with a smile.
+      </p>
+    </div>
 
+    {/* Bottom Button Section */}
+    <div className="flex flex-col sm:flex-row gap-4 justify-center mt-16">
+      <Button className="bg-primary text-white hover:bg-primary/90" asChild>
+        <a href="/waitlist">Be The First To Join</a>
+      </Button>
+    </div>
+  </div>
+</section>
 
-      </section>
 
 {/* Services Section */}
 <section className="py-20 bg-[#F8F7F5]">
@@ -383,6 +389,7 @@ export default function Home() {
             </Card>
           </div>
         </div>
+        
       </section>
 
 
