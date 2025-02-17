@@ -31,6 +31,7 @@ export default function Home() {
             <p className="text-xl md:text-2xl mb-8 text-gray-200">
             Your Invitation to Good Health & Longevity Starts Here.
             </p>
+            
             <div className="flex gap-4">
               <Button className="bg-primary text-white hover:bg-primary/90" asChild>
                 <a href="/waitlist">Join The Waitlist</a>
@@ -50,8 +51,11 @@ export default function Home() {
     <div className="text-center mb-16">
       <h2 className="text-4xl font-bold mb-4">Rise Dental: Where Wellness Meets Practicality</h2>
       <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-        At Rise Dental, we believe good health isn’t an abstract ideal—it’s a natural way of living. That’s why we take a practical approach to wellness, combining advanced technology, evidence-based care, and a streamlined patient experience to make optimal oral health simple and achievable. We bridge the gap between modern dentistry and whole-body wellness—because good health starts with a smile.
-      </p>
+        We believe good health isn’t an abstract ideal—it’s a natural way of living. That’s why we take a practical approach to wellness, combining advanced technology, evidence-based care, and a streamlined patient experience to make optimal oral health simple and achievable. We bridge the gap between dentistry and modern whole-body wellness—because good health starts with a smile.
+      </p><br></br>
+      <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            Coming Summer 2025.
+            </p>
     </div>
 
     {/* Bottom Button Section */}
@@ -70,7 +74,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Modern Dentistry, Designed for Life</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Our dental services focus on wellness solutions that last.
+            With our experienced team, we’ve reimagined dentistry to be smarter, safer, and built around you. Our wellness-driven approach prioritizes long-term solutions that enhance both your health and your lifestyle.
             </p>
           </div>
 
@@ -274,8 +278,8 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">The Rise Difference</h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            We help create experiences that help you feel better and live better, in a space that’s both elevated and effortlessly inviting. 
-            </p>
+            We’ve designed every detail with your well-being in mind, blending thoughtful care with a seamless experience. At Rise Dental, feeling better and living better isn’t just a promise—it’s the foundation of everything we do.
+             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -405,7 +409,7 @@ export default function Home() {
                 </div>
                 <h2 className="text-4xl md:text-5xl font-bold">VIP Care, Personalized for You</h2>
                 <p className="text-lg text-gray-600">
-                  Our membership program is designed to make high-quality, whole-body dentistry accessible, seamless, and rewarding.
+                Our exclusive membership program offers seamless access to high-quality dentistry, making exceptional care more convenient and rewarding. Experience a smarter way to prioritize your health—on your terms.
                 </p>
                 <div className="space-y-4">
                   <div className="flex items-start">
