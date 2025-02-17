@@ -154,6 +154,12 @@ export default function Home() {
               </div>
             </Card>
           </div>
+          {/* Bottom Button Section */}
+    <div className="flex flex-col sm:flex-row gap-4 justify-center mt-16">
+      <Button className="bg-primary text-white hover:bg-primary/90" asChild>
+        <a href="/waitlist">Schedule A Service</a>
+      </Button>
+    </div>
         </div>
       </section>
 
@@ -392,6 +398,12 @@ export default function Home() {
               </ul>
             </Card>
           </div>
+          {/* Bottom Button Section */}
+    <div className="flex flex-col sm:flex-row gap-4 justify-center mt-16">
+      <Button className="bg-primary text-white hover:bg-primary/90" asChild>
+        <a href="/waitlist">Experience the Rise Difference</a>
+      </Button>
+    </div>
         </div>
         
       </section>
